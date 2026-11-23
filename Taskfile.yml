@@ -264,6 +264,23 @@ tasks:
           echo "built core/dist/commit-hike-$os-$arch$ext"
         done
 
+  i18n:
+    desc: "Write the interface texts of every plugin from i18n/<lang>.json (the panel, VS Code, JetBrains, Neovim, the core)"
+    cmds:
+      - node scripts/i18n.mjs
+
+  i18n:check:
+    desc: Check that every language in i18n/ has every text, the same placeholders and its plural forms, and that the generated files are up to date
+    cmds:
+      - node scripts/i18n.mjs --check
+
+  i18n:new:
+    desc: "Start a new interface language from English: task i18n:new CODE=cs"
+    requires:
+      vars: [CODE]
+    cmds:
+      - node scripts/i18n.mjs --new {{.CODE}}
+
   routes:check:
     desc: Validate every route pack and check that all translations are complete
     dir: core
@@ -570,6 +587,7 @@ tasks:
     desc: Everything CI checks (linters, vulnerabilities, all tests, the core coverage gate) and a coverage table
     cmds:
       - rm -f "{{.SANDBOX}}"/cover/summary-*.json
+      - task: i18n:check
       - task: lint
       - task: core:vuln
       - task: core:cover
@@ -601,7 +619,7 @@ tasks:
   # ───────────────────────────── terminal: the core on its own ─────────────────────────────
 
   screenshots:
-    desc: "Remake docs/screenshots (README and marketplace pictures) from the real panel in all five languages (ARGS=uk or ARGS=uk-map for some)"
+    desc: "Remake docs/screenshots (README and marketplace pictures) from the real panel in every language (ARGS=uk or ARGS=uk-map for some)"
     deps: [ui:deps, core:build]
     dir: ui
     env:

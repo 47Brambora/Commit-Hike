@@ -7,7 +7,7 @@
 [![GitHub stars](https://img.shields.io/github/stars/Shchusia/Commit-Hike?style=flat&logo=github)](https://github.com/Shchusia/Commit-Hike)
 [![License: MIT](https://img.shields.io/badge/license-MIT-blue)](../LICENSE)
 
-*[English](../README.md) · [Українська](README.uk.md) · [Polski](README.pl.md) · [Deutsch](README.de.md) · [Español](README.es.md) · [Novedades](../CHANGELOG.md)*
+*[English](../README.md) · [Українська](README.uk.md) · [Polski](README.pl.md) · [Deutsch](README.de.md) · [Español](README.es.md) · [Čeština](README.cs.md) · [Novedades](../CHANGELOG.md)*
 
 Cada commit que haces te lleva por un sendero, dentro de tu IDE. Un día de
 trabajo constante te lleva unos diez kilómetros por una cresta de montaña
@@ -27,7 +27,7 @@ mapa, historias, datos curiosos y logros.
 
 - **Rutas reales, literarias y propias.** La cresta de Chornohora por el Hoverla y el Tongariro Alpine Crossing de Nueva Zelanda sobre sus tracks GPS reales, el camino de Santiago de «El Alquimista» por la España, Marruecos, el Sáhara y Egipto reales, un cuento por los Cárpatos o un viaje de fantasía junto a siete faros. Cada ruta tiene sus paradas, su historia, datos curiosos y logros.
 - **Rutas del sitio web.** Busca rutas de otros caminantes en [commit-hike.dev](https://commit-hike.dev) desde el IDE: búsqueda, filtros, portadas, valoraciones; instálalas con un clic y actualízalas cuando el autor publique una nueva versión. En Neovim: `:CommitHike find`.
-- **Cinco idiomas.** Inglés, ucraniano, polaco, alemán y español, como tu IDE o elegido en los ajustes.
+- **Seis idiomas.** Inglés, ucraniano, polaco, alemán, español y checo, como tu IDE o elegido en los ajustes.
 - **Series.** Termina una ruta y sigue a la siguiente: los Cárpatos (Chornohora → Svydovets → Gorgany) y los caminos largos (Tour du Mont Blanc → Camino Francés a Santiago).
 - **Desnivel de verdad.** Las rutas tienen perfil de altitud: el terreno sube y baja, y ves la altitud, la pendiente, el desnivel acumulado y la subida hasta la próxima parada.
 - **Una escena viva.** El cielo sigue tu reloj, el tiempo cambia cada día y el paisaje —bosques, praderas, estepa, desierto, roca, nieve, lagos, mar, volcanes— se funde de uno a otro. Nieve en invierno, praderas doradas en otoño y un campamento junto al fuego los días sin commits.

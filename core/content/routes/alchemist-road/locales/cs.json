@@ -1,0 +1,130 @@
+{
+  "name": "Alchymistova cesta",
+  "description": "Santiagova pouť z Alchymisty Paula Coelha skutečnými místy ve skutečném měřítku, asi 4 370 km: Andalusie, Tanger, napříč Saharou do Al-Fajjúmu a k pyramidám. Mapa ukazuje skutečný terén (Natural Earth).",
+  "waypoints": {
+    "andalusia": {
+      "name": "Andaluské pastviny",
+      "text": "Mladý pastýř spí mezi svými ovcemi a dvakrát se mu zdá o pokladu u pyramid."
+    },
+    "old-church": {
+      "name": "Zpustlý kostel",
+      "text": "Kostel bez střechy, a tam, kde kdysi byla sakristie, roste sykomora."
+    },
+    "tarifa": {
+      "name": "Tarifa",
+      "text": "Na náměstí po tobě starý muž, který tvrdí, že je král, žádá desetinu stáda."
+    },
+    "strait": {
+      "name": "Gibraltarský průliv",
+      "text": "Prodáš ovce a přepluješ moře do Afriky."
+    },
+    "tangier": {
+      "name": "Tanger",
+      "text": "Hned první den tě okradou, ve městě, jehož jazyku nerozumíš."
+    },
+    "crystal-shop": {
+      "name": "Obchodník s křišťálem",
+      "text": "Rok leštění skla, prodeje čaje a šetření peněz. Obchodu se ještě nikdy nedařilo lépe."
+    },
+    "sahara-edge": {
+      "name": "Okraj Sahary",
+      "text": "Velbloudí karavana nechává za sebou poslední studnu. Jeden Angličan čte knihy o alchymii."
+    },
+    "deep-sahara": {
+      "name": "Srdce Sahary",
+      "text": "Týdny písku a ticha. Učíš se naslouchat poušti."
+    },
+    "al-fayoum": {
+      "name": "Oáza Al-Fajjúm",
+      "text": "Palmy, studny a žena jménem Fátima. Na nebi spolu bojují dva jestřábi a ty v tom čteš znamení."
+    },
+    "alchemist-tent": {
+      "name": "Alchymistův stan",
+      "text": "Muž v černém na bílém koni svolí, že tě provede pouští."
+    },
+    "wind-rock": {
+      "name": "Skála větru",
+      "text": "Zadržují tě v pouštním táboře a máš tři dny na to, aby ses proměnil ve vítr."
+    },
+    "giza": {
+      "name": "Pyramidy v Gíze",
+      "text": "Kopeš u pyramid a slova cizince ti prozradí, že poklad leží doma, pod sykomorou."
+    }
+  },
+  "story": {
+    "reading": "Máš rád ovce, ale máš rád i knihy a nové obzory.",
+    "omens": "Dva kameny, jeden černý a jeden bílý, ti pomáhají, když se nedokážeš rozhodnout.",
+    "war": "V poušti spolu válčí kmeny a karavana se pohybuje jen v noci.",
+    "lead": "Alchymista ti ukáže kousek s olovem. Nejde o zlato."
+  },
+  "facts": {
+    "first-print": "Alchymista poprvé vyšel v Brazílii v roce 1988. První nakladatel vytiskl asi 900 výtisků a rozhodl se knihu znovu nevydat.",
+    "camino": "O dva roky dříve, v roce 1986, prošel Coelho Svatojakubskou cestu, poutní stezku napříč severním Španělskem.",
+    "tarifa-point": "Mys u Tarify je nejjižnějším bodem kontinentální Evropy.",
+    "strait-width": "V nejužším místě je Gibraltarský průliv široký jen asi 14 km; za jasných dnů je ze Španělska vidět Afrika.",
+    "ibn-battuta": "Ibn Battúta, jeden z největších cestovatelů středověku, se narodil v Tangeru v roce 1304.",
+    "alchemy-word": "Slovo alchymie přišlo do evropských jazyků z arabského al-kīmiyā a vyrostla z ní chemie.",
+    "sahara-size": "Sahara je největší horká poušť na světě, má asi 9 milionů km², zhruba jako Spojené státy.",
+    "not-all-sand": "Většinu Sahary netvoří duny, ale skalnaté plošiny a štěrkové pláně.",
+    "camel-drink": "Žíznivý velbloud dokáže během několika minut vypít víc než 100 litrů vody.",
+    "fayoum": "Al-Fajjúm je skutečná oáza v pouštní sníženině západně od Nilu, napájená starověkým kanálem, s jezerem Karún.",
+    "emerald-tablet": "Smaragdová deska, krátký tajemný text připisovaný Hermovi Trismegistovi, byla jedním ze základů evropské alchymie.",
+    "great-pyramid": "Velká pyramida v Gíze byla zhruba 3 800 let nejvyšší stavbou, jakou lidé postavili.",
+    "translations": "Alchymista drží Guinnessův rekord jako nejpřekládanější kniha žijícího autora."
+  },
+  "objects": {
+    "flock": "Santiagovo stádo",
+    "church": "Kostel se sykomorou",
+    "crystal": "Obchod s křišťálem",
+    "caravan": "Karavana",
+    "oasis-palms": "Oáza",
+    "hawks": "Dva jestřábi",
+    "pyramids": "Pyramidy"
+  },
+  "achievements": {
+    "dream": {
+      "name": "Opakovaný sen",
+      "description": "Ujdi prvních 100 m."
+    },
+    "africa": {
+      "name": "Jiný kontinent",
+      "description": "Dojdi do Tangeru."
+    },
+    "crystal": {
+      "name": "Vyleštěné sklo",
+      "description": "Pracuj pro obchodníka s křišťálem."
+    },
+    "desert-day": {
+      "name": "Tempem karavany",
+      "description": "Ujdi 20 km za jediný den."
+    },
+    "oasis": {
+      "name": "Voda v poušti",
+      "description": "Dojdi do Al-Fajjúmu."
+    },
+    "wind": {
+      "name": "Staň se větrem",
+      "description": "Dojdi ke Skále větru."
+    },
+    "steady": {
+      "name": "Následuj znamení",
+      "description": "Commituj 30 dní po sobě."
+    },
+    "treasure": {
+      "name": "Kde je poklad",
+      "description": "Dojdi k pyramidám a zjisti, kde leží poklad."
+    },
+    "thousand-km-sand": {
+      "name": "Tisíc kilometrů písku",
+      "description": "Ujdi 1 000 km pouští."
+    },
+    "omens": {
+      "name": "Znamení všude kolem",
+      "description": "Udělej 12 commitů za jediný den."
+    },
+    "reading-stars": {
+      "name": "Čtení z hvězd",
+      "description": "Udělej 10 commitů mezi půlnocí a 5. hodinou ranní, jako karavana putující v noci."
+    }
+  }
+}

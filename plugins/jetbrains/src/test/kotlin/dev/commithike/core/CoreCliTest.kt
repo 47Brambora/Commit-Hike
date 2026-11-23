@@ -243,11 +243,14 @@ class CoreCliTest {
     @Test
     fun translationsAreComplete() {
         assertEquals(emptyMap<String, Set<String>>(), I18n.missing())
+        assertEquals("en", I18n.languages.first())
+        assertTrue("the catalog is generated from i18n/*.json: ${I18n.languages}", I18n.languages.size >= 6)
+        assertEquals(emptyList<String>(), I18n.languages.filter { I18n.languageNames[it].isNullOrEmpty() })
         I18n.setLanguage("uk-UA")
         assertEquals("uk", I18n.lang)
         assertEquals("8,4 км", I18n.distance(8400.0))
         assertEquals("Сьогодні: 5 м", I18n.t("barToday", I18n.distance(5.0)))
-        for ((tag, expected) in listOf("pl-PL" to "8,4 km", "de" to "8,4 km", "es" to "8,4 km")) {
+        for ((tag, expected) in listOf("pl-PL" to "8,4 km", "de" to "8,4 km", "es" to "8,4 km", "cs-CZ" to "8,4 km")) {
             I18n.setLanguage(tag)
             assertEquals(tag.take(2), I18n.lang)
             assertEquals(expected, I18n.distance(8400.0))

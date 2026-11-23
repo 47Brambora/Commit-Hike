@@ -229,14 +229,11 @@ object CorePlatform {
 }
 
 fun formatDistance(m: Double, lang: String = "en"): String {
-    val uk = lang == "uk"
-    val comma = lang in setOf("uk", "pl", "de", "es") // a decimal comma
-    if (m < 1000) return "${m.roundToInt()} " + if (uk) "м" else "m"
+    val u = I18n.units(lang.lowercase().split('-', '_').first())
+    if (m < 1000) return "${m.roundToInt()} ${u.m}"
     val km = m / 1000
-    val unit = if (uk) "км" else "km"
-    if (km >= 100) return "${km.roundToInt()} $unit"
-    val s = "%.1f".format(java.util.Locale.ROOT, km)
-    return (if (comma) s.replace('.', ',') else s) + " " + unit
+    if (km >= 100) return "${km.roundToInt()} ${u.km}"
+    return "%.1f".format(java.util.Locale.ROOT, km).replace(".", u.decimal) + " " + u.km
 }
 
 /** `git config --global user.email`, or "" when git or the setting is missing. */

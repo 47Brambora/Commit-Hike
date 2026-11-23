@@ -1,0 +1,99 @@
+{
+  "name": "Hřeben Čornohory",
+  "description": "Nejvyšší horský hřeben Ukrajiny, ze Zarosljaku přes Hoverlu na Pip Ivan. Vzdálenosti jsou přibližné.",
+  "waypoints": {
+    "zaroslyak": {
+      "name": "Zarosljak",
+      "text": "Stezka začíná u staré základny ve smrkovém lese."
+    },
+    "hoverla": {
+      "name": "Hoverla",
+      "text": "2 061 m, nejvyšší bod Ukrajiny."
+    },
+    "breskul": {
+      "name": "Breskul",
+      "text": "Hřeben se před tebou otevírá."
+    },
+    "pozhyzhevska": {
+      "name": "Požyževska",
+      "text": "Po obou stranách louky, vítr do tváře."
+    },
+    "nesamovyte": {
+      "name": "Jezero Nesamovyte",
+      "text": "Podle pověsti přivolá kámen hozený do tohoto jezera bouři. Raději to nezkoušej."
+    },
+    "brebeneskul-lake": {
+      "name": "Jezero Brebeneskul",
+      "text": "Nejvýše položené jezero Ukrajiny."
+    },
+    "pip-ivan": {
+      "name": "Pip Ivan",
+      "text": "Na vrcholu stojí observatoř Bílý slon. Máš za sebou celý hřeben!"
+    }
+  },
+  "story": {
+    "treeline": "Smrky řídnou. Nad tebou už je jen tráva a nebe.",
+    "ridge-wind": "Tady nahoře vítr nikdy neutichá. Zapneš si bundu a jdeš dál.",
+    "white-elephant": "Daleko před tebou se na vrcholu šedí budova: stará observatoř."
+  },
+  "facts": {
+    "six-2000": "Na Čornohoře leží šest ukrajinských vrcholů nad 2 000 m: Hoverla, Brebeneskul, Pip Ivan, Petros, Hutyn Tomnatyk a Rebra.",
+    "prut": "Prut, jedna z velkých řek Ukrajiny a Moldavska, začíná jako potůček na svazích Hoverly.",
+    "border-posts": "Mezi světovými válkami vedla tímto hřebenem hranice mezi Polskem a Československem. Očíslované kamenné mezníky dodnes stojí podél stezky.",
+    "polonyna": "Polonina je vysokohorská louka. Každé léto sem huculští pastevci vyháněli stáda a až do podzimu žili v dřevěných salaších.",
+    "reserve": "Velkou část Čornohory chrání Karpatská biosférická rezervace a Karpatský národní přírodní park.",
+    "cirques": "Jezera Nesamovyte a Brebeneskul leží v karech: mísách vyhloubených ledovci, které tyto hory pokrývaly v poslední době ledové.",
+    "observatory": "Observatoř na Pip Ivanu postavilo Polsko v letech 1936–1938 pro astronomii a meteorologii. Místní jí přezdívali Bílý slon."
+  },
+  "objects": {
+    "hoverla-top": "Vrchol Hoverly",
+    "koliba": "Pastýřská koliba",
+    "white-elephant": "Bílý slon"
+  },
+  "achievements": {
+    "first-steps": {
+      "name": "První kroky",
+      "description": "Ujdi prvních 100 m."
+    },
+    "roof-of-ukraine": {
+      "name": "Střecha Ukrajiny",
+      "description": "Vystoupej na Hoverlu."
+    },
+    "above-2000": {
+      "name": "Nad 2 000",
+      "description": "Stoupni si výš než 2 000 m."
+    },
+    "quiet-stones": {
+      "name": "Bez paniky",
+      "description": "Dojdi k jezeru Nesamovyte a nehoď do něj jediný kámen."
+    },
+    "kilometre-up": {
+      "name": "Kilometr vzhůru",
+      "description": "Nastoupej celkem 1 000 m."
+    },
+    "steady-pace": {
+      "name": "Stálé tempo",
+      "description": "Commituj 5 dní po sobě."
+    },
+    "hundred": {
+      "name": "Stovka",
+      "description": "Udělej na této trase 100 commitů."
+    },
+    "ridge-walker": {
+      "name": "Hřebenovka",
+      "description": "Projdi celý hřeben Čornohory."
+    },
+    "chorn-peaks": {
+      "name": "Čtyři vrcholy",
+      "description": "Stoupni si na všechny čtyři vrcholy hřebene."
+    },
+    "chorn-lakes": {
+      "name": "Horská zrcadla",
+      "description": "Dojdi k oběma jezerům pod hřebenem."
+    },
+    "chorn-sunrise": {
+      "name": "Východ slunce na hřebeni",
+      "description": "Udělej 10 commitů mezi 5. a 8. hodinou ranní."
+    }
+  }
+}

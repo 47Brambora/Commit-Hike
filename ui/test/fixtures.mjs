@@ -8,6 +8,8 @@ import { fileURLToPath } from "node:url";
 
 const here = path.dirname(fileURLToPath(import.meta.url));
 export const FIXTURES = path.join(here, ".fixtures");
+// Every interface language: i18n/<lang>.json, English first.
+export const LANGUAGES = ["en", ...fs.readdirSync(path.join(here, "..", "..", "i18n")).filter(f => /^[a-z]{2,3}\.json$/.test(f)).map(f => f.slice(0, -5)).filter(l => l !== "en").sort()];
 
 export default function setup() {
   const bin = process.env.COMMIT_HIKE_BIN || path.join(here, "..", "..", ".sandbox", "bin", "commit-hike");
@@ -34,7 +36,7 @@ export default function setup() {
   core("scan", "--repo", repo);
   fs.rmSync(FIXTURES, { recursive: true, force: true });
   fs.mkdirSync(FIXTURES, { recursive: true });
-  for (const lang of ["en", "uk", "pl", "de", "es"]) {
+  for (const lang of LANGUAGES) {
     const status = core("status", "--repo", repo, "--lang", lang);
     if (!status.ok) throw new Error("status failed: " + JSON.stringify(status));
     fs.writeFileSync(path.join(FIXTURES, `status-${lang}.json`), JSON.stringify(status.data));

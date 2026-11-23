@@ -1,0 +1,72 @@
+{
+  "name": "Ukázková stezka",
+  "description": "Krátká cvičná trasa, na které si můžeš všechno vyzkoušet.",
+  "waypoints": {
+    "trailhead": {
+      "name": "Začátek stezky",
+      "text": "Tvoje cesta začíná."
+    },
+    "old-bridge": {
+      "name": "Starý most",
+      "text": "První kilometr máš za sebou."
+    },
+    "pine-forest": {
+      "name": "Borový les",
+      "text": "Čtvrtina cesty."
+    },
+    "mountain-lake": {
+      "name": "Horské jezero",
+      "text": "V polovině cesty."
+    },
+    "summit": {
+      "name": "Vrchol",
+      "text": "Zvládnuto!"
+    }
+  },
+  "story": {
+    "birdsong": "Stezka utichá, slyšet je jen ptačí zpěv.",
+    "clouds": "Teď už kráčíš nad mraky."
+  },
+  "facts": {
+    "lapse-rate": "Vzduch se ochlazuje zhruba o 6,5 °C na každých 1 000 m stoupání, takže na vrcholu může být zima, zatímco v údolí je jaro.",
+    "naismith": "Naismithovo pravidlo (1892) pro plánování túr: hodina na každých 5 km vzdálenosti a k tomu hodina na každých 600 m stoupání."
+  },
+  "objects": {
+    "bridge": "Starý most",
+    "bench": "Lavička s výhledem"
+  },
+  "achievements": {
+    "first-steps": {
+      "name": "První kroky",
+      "description": "Ujdi prvních 100 m."
+    },
+    "bridge": {
+      "name": "Přes řeku",
+      "description": "Dojdi ke Starému mostu."
+    },
+    "halfway": {
+      "name": "V polovině",
+      "description": "Dojdi k Horskému jezeru."
+    },
+    "big-day": {
+      "name": "Velký den",
+      "description": "Ujdi 15 km za jediný den."
+    },
+    "summit": {
+      "name": "Nahoře",
+      "description": "Dojdi až na konec Ukázkové stezky."
+    },
+    "change-of-scenery": {
+      "name": "Změna krajiny",
+      "description": "Projdi 5 různými druhy krajiny."
+    },
+    "weekend-walker": {
+      "name": "Víkendový chodec",
+      "description": "Udělej 3 commity o víkendu."
+    },
+    "night-owl": {
+      "name": "Noční sova",
+      "description": "Udělej 3 commity mezi půlnocí a 5. hodinou ranní."
+    }
+  }
+}

@@ -10,6 +10,7 @@ import (
 	"strings"
 
 	"github.com/Shchusia/commit-hike/core/internal/gitlog"
+	"github.com/Shchusia/commit-hike/core/internal/i18n"
 	"github.com/Shchusia/commit-hike/core/internal/store"
 )
 
@@ -103,26 +104,15 @@ func (s *Service) scanIfMoved(dir, lang string) error {
 // language's decimal separator and units.
 func FormatDistance(m float64, lang string) string {
 	m = math.Max(0, m)
-	base := strings.ToLower(strings.SplitN(strings.ReplaceAll(lang, "_", "-"), "-", 2)[0])
-	unitM, unitKM, comma := "m", "km", false
-	switch base {
-	case "uk":
-		unitM, unitKM, comma = "м", "км", true
-	case "pl", "de", "es":
-		comma = true
-	}
+	u := i18n.UnitsOf(lang)
 	if m < 1000 {
-		return fmt.Sprintf("%.0f %s", math.Round(m), unitM)
+		return fmt.Sprintf("%.0f %s", math.Round(m), u.M)
 	}
 	km := m / 1000
 	if km >= 100 {
-		return fmt.Sprintf("%.0f %s", math.Round(km), unitKM)
+		return fmt.Sprintf("%.0f %s", math.Round(km), u.KM)
 	}
-	s := fmt.Sprintf("%.1f", km)
-	if comma {
-		s = strings.Replace(s, ".", ",", 1)
-	}
-	return s + " " + unitKM
+	return strings.Replace(fmt.Sprintf("%.1f", km), ".", u.Decimal, 1) + " " + u.KM
 }
 
 // LangFromEnv picks a language from the POSIX locale variables (LC_ALL,

@@ -10,6 +10,7 @@ import (
 	"testing"
 	"time"
 
+	"github.com/Shchusia/commit-hike/core/internal/i18n"
 	"github.com/Shchusia/commit-hike/core/internal/protocol"
 )
 
@@ -287,7 +288,7 @@ func TestInterfaceLanguagesAreAvailableBeforeRoutesAreTranslated(t *testing.T) {
 	if err != nil {
 		t.Fatal(err)
 	}
-	for _, l := range []string{"en", "uk", "pl", "de", "es"} {
+	for _, l := range i18n.UILocales {
 		if !slices.Contains(info.Available, l) {
 			t.Errorf("%s missing from %v", l, info.Available)
 		}

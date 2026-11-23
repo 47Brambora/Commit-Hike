@@ -1,0 +1,85 @@
+{
+  "name": "Hřeben Svydovce",
+  "description": "Zelený hřeben polonin a ledovcových jezer v ukrajinských Karpatech, z Kvas přes Blyznycju do Čorne Tysy. Stopa spojuje zastávky; ty bez ověřených souřadnic jsou rozmístěny podél ní.",
+  "waypoints": {
+    "kvasy": {
+      "name": "Kvasy",
+      "text": "Vesnice na Černé Tise, kde začíná stoupání."
+    },
+    "brailka": {
+      "name": "Polonina Brajilka",
+      "text": "Pastevci tu tráví léto a sýr se tu dělá postaru."
+    },
+    "blyznytsia": {
+      "name": "Blyznycja",
+      "text": "Nejvyšší bod Svydovce, dva zelené dvojčecí vrcholy."
+    },
+    "drahobrat": {
+      "name": "Drahobrat",
+      "text": "Nejvýše položené lyžařské středisko Ukrajiny, v létě tiché."
+    },
+    "stih": {
+      "name": "Stih",
+      "text": "Oblý vrchol na hlavním hřebeni."
+    },
+    "vorozheska": {
+      "name": "Jezero Vorožeska",
+      "text": "Dvě ledovcová jezera spojená potokem, pod strmým karem."
+    },
+    "kotel": {
+      "name": "Velykyj Kotel",
+      "text": "„Velký kotel“, pojmenovaný podle karu na jeho úbočí."
+    },
+    "apshynets": {
+      "name": "Jezero Apšynec",
+      "text": "Jedno z nejvýše položených jezer Karpat; voda v něm nemá víc než 12 °C."
+    },
+    "chorna-tysa": {
+      "name": "Čorna Tysa",
+      "text": "Vesnice v údolí na konci hřebene."
+    }
+  },
+  "story": {
+    "treeline": "Buky ustupují smrkům a ty pak otevřené polonině.",
+    "lakes": "Pod hřebenem leží ve starých ledovcových karech jedno jezero za druhým."
+  },
+  "facts": {
+    "centre-europe": "Svydovec sousedí s místem u vesnice Dilove, které se prohlašuje za zeměpisný střed Evropy.",
+    "nine-lakes": "Na Svydovci je devět ledovcových jezer; nejznámější jsou Apšynec, Vorožeska a Dohjaska.",
+    "vorozheska-depth": "Horní jezero Vorožeska je hluboké 4,5 m, dolní 1,9 m."
+  },
+  "achievements": {
+    "svyd-start": {
+      "name": "Na hřebenové stezce",
+      "description": "Ujdi na Svydovci prvních 100 m."
+    },
+    "svyd-top": {
+      "name": "Dvojčata",
+      "description": "Vystoupej na Blyznycju, nejvyšší vrchol Svydovce."
+    },
+    "svyd-lakes": {
+      "name": "Strážce jezer",
+      "description": "Projdi kolem jezer až k Apšynci."
+    },
+    "svyd-finish": {
+      "name": "Svydovec přejitý",
+      "description": "Projdi celý hřeben až do Čorne Tysy."
+    },
+    "svyd-streak": {
+      "name": "Pět dní na hřebeni",
+      "description": "Commituj pět dní po sobě."
+    },
+    "svyd-peaks": {
+      "name": "Tři vrcholy",
+      "description": "Stoupni si na všechny tři vrcholy hřebene."
+    },
+    "svyd-glacial": {
+      "name": "Ledovcová jezera",
+      "description": "Dojdi k oběma ledovcovým jezerům hřebene."
+    },
+    "svyd-polonyna": {
+      "name": "Polonina",
+      "description": "Ujdi 10 km po vysokohorských loukách."
+    }
+  }
+}

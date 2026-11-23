@@ -155,7 +155,7 @@ class LanguageDialog(project: Project, info: LocaleInfo) : DialogWrapper(project
     private data class Choice(val value: String, val label: String)
 
     private val choices = listOf(Choice("auto", I18n.t("langAuto"))) +
-        (listOf("en", "uk") + info.available.orEmpty()).distinct().map { Choice(it, I18n.languageNames[it] ?: it) }
+        (I18n.languages + info.available.orEmpty()).distinct().map { Choice(it, I18n.languageNames[it] ?: it) }
     private var chosen: Choice? = choices.firstOrNull { it.value == info.locale.ifEmpty { "auto" } } ?: choices.first()
 
     val selected: String? get() = chosen?.value

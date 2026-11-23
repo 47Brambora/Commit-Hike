@@ -7,7 +7,7 @@
 [![GitHub stars](https://img.shields.io/github/stars/Shchusia/Commit-Hike?style=flat&logo=github)](https://github.com/Shchusia/Commit-Hike)
 [![License: MIT](https://img.shields.io/badge/license-MIT-blue)](../LICENSE)
 
-*[English](../README.md) · [Українська](README.uk.md) · [Polski](README.pl.md) · [Deutsch](README.de.md) · [Español](README.es.md) · [Neuigkeiten](../CHANGELOG.md)*
+*[English](../README.md) · [Українська](README.uk.md) · [Polski](README.pl.md) · [Deutsch](README.de.md) · [Español](README.es.md) · [Čeština](README.cs.md) · [Neuigkeiten](../CHANGELOG.md)*
 
 Jeder Commit bringt dich auf einem Wanderweg voran, direkt in deiner IDE. Ein
 Tag stetiger Arbeit führt dich etwa zehn Kilometer über einen echten
@@ -27,7 +27,7 @@ unterwegs verändert, einer Karte, Geschichten, Fakten und Erfolgen.
 
 - **Echte, literarische und eigene Routen.** Der Tschornohora-Kamm über die Howerla und das Tongariro Alpine Crossing in Neuseeland auf ihren echten GPS-Tracks, Santiagos Weg aus „Der Alchimist“ durch das echte Spanien, Marokko, die Sahara und Ägypten, ein Märchen in den Karpaten oder eine Fantasy-Reise an sieben Leuchttürmen vorbei. Jede Route hat eigene Halte, eine Geschichte, Fakten und Erfolge.
 - **Routen von der Website.** Finde Routen anderer Wanderer auf [commit-hike.dev](https://commit-hike.dev) direkt in der IDE: Suche, Filter, Titelbilder, Bewertungen; Installation mit einem Klick und Updates, wenn der Autor eine neue Version veröffentlicht. In Neovim: `:CommitHike find`.
-- **Fünf Sprachen.** Englisch, Ukrainisch, Polnisch, Deutsch und Spanisch — wie deine IDE oder in den Einstellungen gewählt.
+- **Sechs Sprachen.** Englisch, Ukrainisch, Polnisch, Deutsch, Spanisch und Tschechisch — wie deine IDE oder in den Einstellungen gewählt.
 - **Serien.** Beende eine Route und wandere weiter: die Karpaten (Tschornohora → Swydiwez → Gorgany) und die langen Wege (Tour du Mont Blanc → Camino Francés nach Santiago).
 - **Echte Höhenmeter.** Routen haben Höhenprofile: Das Gelände steigt und fällt, und du siehst Höhe, Steigung, geschaffte Höhenmeter und den Anstieg bis zum nächsten Halt.
 - **Eine lebendige Szene.** Der Himmel folgt deiner Uhr, das Wetter wechselt von Tag zu Tag, und die Landschaft — Wälder, Wiesen, Steppe, Wüste, Fels, Schnee, Seen, Meer, Vulkane — geht fließend ineinander über. Im Winter Schnee, im Herbst goldene Wiesen, an Tagen ohne Commits ein Lager am Feuer.

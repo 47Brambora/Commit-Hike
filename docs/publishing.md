@@ -114,7 +114,7 @@ first with `task release:snapshot` (output in `dist/`, nothing published);
 **Actions → Core binaries → Run workflow** does the same dry run on GitHub.
 
 **Screenshots.** `task screenshots` remakes `docs/screenshots/` from the real
-panel in all five languages (1280×800, the size both marketplaces like). On
+panel in every language (1280×800, the size both marketplaces like). On
 JetBrains Marketplace upload `en-hike`, `en-map`, `en-places`, `en-stats` and
 `en-share` once in the plugin's **Media** tab; they don't come from the zip.
 

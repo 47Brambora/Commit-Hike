@@ -5,6 +5,7 @@ import (
 	"testing/fstest"
 
 	"github.com/Shchusia/commit-hike/core/content"
+	"github.com/Shchusia/commit-hike/core/internal/i18n"
 )
 
 func TestBuiltinSeries(t *testing.T) {
@@ -21,7 +22,7 @@ func TestBuiltinSeries(t *testing.T) {
 		t.Fatalf("after Chornohora: %q in %+v", next, s)
 	}
 	for _, ser := range series {
-		for _, l := range []string{"en", "uk", "pl", "de", "es"} {
+		for _, l := range i18n.UILocales {
 			if ser.Name[l] == "" {
 				t.Errorf("series %q has no %s name", ser.ID, l)
 			}

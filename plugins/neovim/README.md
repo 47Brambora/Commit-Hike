@@ -9,8 +9,8 @@ Your commits walk a hiking trail, in your status line:
 A thin wrapper around `commit-hike`, the same core as the
 [Commit Hike](https://github.com/Shchusia/Commit-Hike) plugins for JetBrains
 IDEs and VS Code (they share your progress). Ten routes, from the Carpathians
-to the Camino, in English, Ukrainian, Polish, German and Spanish, and more
-from [commit-hike.dev](https://commit-hike.dev) with `:CommitHike find`.
+to the Camino, in English, Ukrainian, Polish, German, Spanish and Czech, and
+more from [commit-hike.dev](https://commit-hike.dev) with `:CommitHike find`.
 Nothing about you leaves your computer: the site is only asked for its public
 catalogue when you run `:CommitHike find` or `:CommitHike install`.
 

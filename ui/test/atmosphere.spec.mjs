@@ -56,3 +56,30 @@ test("a finished route of a series offers the next one", async ({ page }) => {
   await page.getByRole("button", { name: /Walk on: Svydovets Ridge \(34(\.0)? km\)/ }).click();
   expect(await p.sent()).toContainEqual({ command: "walkRoute", id: "svydovets-ridge" });
 });
+
+// The overlay over the scene (birds, leaves, animals, holiday skies) stays
+// empty inside a tunnel: nothing of the sky flies under the mountain.
+async function overlayInk(page) {
+  return page.evaluate(() => {
+    const c = document.querySelector(".scene canvas.fx");
+    const px = c.getContext("2d").getImageData(0, 0, c.width, c.height).data;
+    let ink = 0;
+    for (let i = 3; i < px.length; i += 4) ink += px[i];
+    return ink;
+  });
+}
+
+test("no birds, leaves or animals in a tunnel", async ({ page }) => {
+  const st = status("en");
+  const d = st.global.distance_m;
+  st.global.route.biomes = [{ at_m: 0, type: "meadow" }];
+  st.global.route.underground = [{ from_m: Math.max(0, d - 4000), to_m: d + 4000 }];
+  const p = await openPanel(page, data(st));
+  await page.clock.setFixedTime(new Date("2026-07-15T10:00:00Z"));
+  await p.update(data(st));
+  for (let k = 0; k < 8; k++) {
+    await page.waitForTimeout(250);
+    expect(await overlayInk(page), `frame ${k}`).toBe(0);
+  }
+  expect(p.errors).toEqual([]);
+});

@@ -1,0 +1,119 @@
+{
+  "name": "Tour du Mont Blanc",
+  "description": "Klasický alpský okruh kolem Mont Blancu přes Francii, Itálii a Švýcarsko, proti směru hodinových ručiček z Les Houches. Stopa spojuje zastávky; sedla bez ověřených souřadnic jsou rozmístěna podél ní.",
+  "waypoints": {
+    "les-houches": {
+      "name": "Les Houches",
+      "text": "Klasický start, na úpatí Mont Blancu."
+    },
+    "col-de-voza": {
+      "name": "Col de Voza",
+      "text": "První sedlo, kolem kterého rachotí ozubnicová tramvaj."
+    },
+    "les-contamines": {
+      "name": "Les Contamines",
+      "text": "Vesnice plná chat v údolí Montjoie."
+    },
+    "col-du-bonhomme": {
+      "name": "Col du Bonhomme",
+      "text": "Větrné sedlo na staré římské cestě."
+    },
+    "les-chapieux": {
+      "name": "Les Chapieux",
+      "text": "Osada proslulá sýrem beaufort."
+    },
+    "col-de-la-seigne": {
+      "name": "Col de la Seigne",
+      "text": "Hranice s Itálií a první pohled na italskou stranu Mont Blancu."
+    },
+    "courmayeur": {
+      "name": "Courmayeur",
+      "text": "Italské městečko v polovině okruhu, pod jižní stěnou."
+    },
+    "grand-col-ferret": {
+      "name": "Grand Col Ferret",
+      "text": "Nejvyšší sedlo okruhu a hranice se Švýcarskem."
+    },
+    "la-fouly": {
+      "name": "La Fouly",
+      "text": "Švýcarská vesnice pod ledovci Mont Dolentu."
+    },
+    "champex": {
+      "name": "Champex-Lac",
+      "text": "Vesnice kolem horského jezera."
+    },
+    "trient": {
+      "name": "Trient",
+      "text": "Růžový kostel pod Trientským ledovcem."
+    },
+    "col-de-balme": {
+      "name": "Col de Balme",
+      "text": "Zpět ve Francii, před tebou celé údolí Chamonix."
+    },
+    "lac-blanc": {
+      "name": "Lac Blanc",
+      "text": "Slavné jezero, v jehož hladině se zrcadlí masiv Mont Blancu."
+    },
+    "chamonix": {
+      "name": "Chamonix",
+      "text": "Město prvních zimních olympijských her, 1924."
+    },
+    "les-houches-return": {
+      "name": "Zpět v Les Houches",
+      "text": "O tři země a deset tisíc výškových metrů později."
+    },
+    "rifugio-bonatti": {
+      "name": "Rifugio Bonatti",
+      "text": "Chata nad Val Ferret naproti Grandes Jorasses, pojmenovaná po horolezci Walteru Bonattim."
+    }
+  },
+  "story": {
+    "three-countries": "Francie, Itálie, Švýcarsko: okruh projde všemi třemi kolem jediné hory.",
+    "glaciers": "Nad stezkou visí ledovce, s každým desetiletím menší.",
+    "home-stretch": "Na druhé straně údolí se zvedají jehly nad Chamonix: skoro doma."
+  },
+  "facts": {
+    "tmb-length": "Tour du Mont Blanc měří asi 170 km a má kolem 10 000 m stoupání; většina lidí ji jde 10 až 11 dní.",
+    "mont-blanc": "Mont Blanc, 4 806 m, je nejvyšší hora Alp i západní Evropy.",
+    "race": "Běžci závodu Ultra-Trail du Mont-Blanc zvládnou celý okruh zhruba za 20 hodin.",
+    "1924": "Chamonix hostilo první zimní olympijské hry v roce 1924."
+  },
+  "achievements": {
+    "tmb-start": {
+      "name": "Bonjour, Mont Blanc",
+      "description": "Ujdi svůj první kilometr."
+    },
+    "tmb-italy": {
+      "name": "Ciao, Italia",
+      "description": "Dojdi do Courmayeuru."
+    },
+    "tmb-switzerland": {
+      "name": "Grüezi",
+      "description": "Dojdi do Švýcarska v La Fouly."
+    },
+    "tmb-high": {
+      "name": "Nad 2 500",
+      "description": "Vystoupej výš než 2 500 m."
+    },
+    "tmb-finish": {
+      "name": "Okruh dokončen",
+      "description": "Projdi celý okruh kolem Mont Blancu."
+    },
+    "tmb-streak": {
+      "name": "Deset dní v Alpách",
+      "description": "Commituj deset dní po sobě."
+    },
+    "tmb-cols": {
+      "name": "Všechna sedla",
+      "description": "Přejdi všech pět sedel okruhu."
+    },
+    "tmb-lakes": {
+      "name": "Zrcadlová jezera",
+      "description": "Dojdi do Champexu a k Lac Blanc."
+    },
+    "tmb-pastures": {
+      "name": "Alpské pastviny",
+      "description": "Ujdi 40 km po alpských loukách."
+    }
+  }
+}

@@ -83,8 +83,9 @@ COMMANDS                                         *commit-hike-commands* *:Commit
                            5 km an hour of walking. on: count the commits
                            made before the update this way too; off: keep
                            the old rules for them.
-:CommitHike lang [auto|en|uk|pl|de|es]
+:CommitHike lang [auto|{code}]
                            The language of route texts, for every editor.
+                           {code} is one of en, cs, de, es, pl, uk.
 :CommitHike init           First-time setup with your commit e-mail.
 
 |:checkhealth| commit-hike checks Neovim, the core and the setup.

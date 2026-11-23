@@ -22,6 +22,7 @@ Each stage is one release. Done items are ticked; see CHANGELOG.md for what ship
 ## 0.6.0 — languages
 - [x] Polish, German and Spanish: the panel, both plugins and the core
 - [x] Polish, German and Spanish: the texts of all ten built-in routes and both series
+- [x] Czech (1.3.0): the panel, both plugins, the core and the READMEs
 - [ ] Proofreading by native speakers
 
 ## 0.7.0 — sharing, beyond IDEs, team

@@ -20,7 +20,7 @@
         Facebook, Telegram or Reddit with the text ready, and an SVG badge for your GitHub profile.</li>
       <li><b>Walk together.</b> Everyone committing to a project on the same trail, with a leaderboard, the team's week and a
         team goal: a route you walk together, everyone's commits adding up.</li>
-      <li><b>Five languages.</b> English, Ukrainian, Polish, German and Spanish.</li>
+      <li><b>Six languages.</b> English, Ukrainian, Polish, German, Spanish and Czech.</li>
       <li><b>Routes from the site</b>: Tools → Commit Hike → Routes from the Site… finds routes other walkers made on
         commit-hike.dev; install them with one click, and update them when their authors publish new versions.</li>
     </ul>
@@ -36,8 +36,9 @@
     <a href="https://github.com/Shchusia/Commit-Hike/blob/master/README.md">English</a>,
     <a href="https://github.com/Shchusia/Commit-Hike/blob/master/docs/README.uk.md">Українською</a>,
     <a href="https://github.com/Shchusia/Commit-Hike/blob/master/docs/README.pl.md">po polsku</a>,
-    <a href="https://github.com/Shchusia/Commit-Hike/blob/master/docs/README.de.md">auf Deutsch</a> or
-    <a href="https://github.com/Shchusia/Commit-Hike/blob/master/docs/README.es.md">en español</a>.</p>
+    <a href="https://github.com/Shchusia/Commit-Hike/blob/master/docs/README.de.md">auf Deutsch</a>,
+    <a href="https://github.com/Shchusia/Commit-Hike/blob/master/docs/README.es.md">en español</a> or
+    <a href="https://github.com/Shchusia/Commit-Hike/blob/master/docs/README.cs.md">česky</a>.</p>
   ]]></description>
 
   <depends>com.intellij.modules.platform</depends>

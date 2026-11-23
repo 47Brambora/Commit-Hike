@@ -10,7 +10,7 @@ import fs from "node:fs";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 import { browserPath } from "./test/browser.mjs";
-import setupFixtures, { FIXTURES } from "./test/fixtures.mjs";
+import setupFixtures, { FIXTURES, LANGUAGES } from "./test/fixtures.mjs";
 
 const here = path.dirname(fileURLToPath(import.meta.url));
 const OUT = path.join(here, "..", "docs", "screenshots");
@@ -18,44 +18,10 @@ const PANEL = fs.readFileSync(path.join(here, "panel", "panel.html"), "utf8")
   .replace("{{CSP}}", "default-src 'none'; style-src 'unsafe-inline'; script-src 'nonce-shot'; img-src data:")
   .replace(/\{\{NONCE\}\}/g, "shot");
 
-// *word* is drawn in the trail colour.
-const COPY = {
-  en: {
-    hike: ["Every commit moves you along the *trail*", "A side-on scene that follows the route's real elevation, the weather and your clock. Look back at the way you came."],
-    map: ["Real trails on a real *map*", "Real GPS tracks on a topographic map: zoom in like on paper, and more names appear."],
-    places: ["Stories at every *stop*", "Every place has its story and facts; the next ones wait until you get there."],
-    stats: ["Your days, your *streak*", "Today's distance, streaks, the year in a calendar, the climbing and your achievements."],
-    share: ["Share where you *are*", "A postcard of your trail for X, Bluesky, Mastodon, LinkedIn and more, with the text ready."],
-  },
-  uk: {
-    hike: ["Кожен коміт веде тебе *стежкою*", "Сцена збоку повторює справжній рельєф маршруту, погоду й твій годинник. Озирнися на пройдений шлях."],
-    map: ["Справжні стежки на справжній *карті*", "Справжні GPS-треки на топографічній карті: наближуй, як на папері, і з'являтимуться нові назви."],
-    places: ["Історія на кожній *зупинці*", "Кожне місце має свою історію й факти; наступні чекають, доки ти дійдеш."],
-    stats: ["Твої дні, твоя *серія*", "Відстань за сьогодні, серії, рік у календарі, набрана висота й досягнення."],
-    share: ["Поділися, де ти *зараз*", "Листівка з твоєю стежкою для X, Bluesky, Mastodon, LinkedIn та інших — із готовим текстом."],
-  },
-  pl: {
-    hike: ["Każdy commit prowadzi cię *szlakiem*", "Widok z boku odtwarza prawdziwe przewyższenia trasy, pogodę i porę dnia. Obejrzyj przebytą drogę."],
-    map: ["Prawdziwe szlaki na prawdziwej *mapie*", "Prawdziwe ślady GPS na mapie topograficznej: przybliżaj jak na papierze, a pojawią się kolejne nazwy."],
-    places: ["Historia na każdym *przystanku*", "Każde miejsce ma swoją historię i ciekawostki; kolejne czekają, aż tam dotrzesz."],
-    stats: ["Twoje dni, twoja *seria*", "Dzisiejszy dystans, serie, rok w kalendarzu, przewyższenia i osiągnięcia."],
-    share: ["Pokaż, gdzie *jesteś*", "Pocztówka z twojego szlaku dla X, Bluesky, Mastodona, LinkedIna i innych, z gotowym tekstem."],
-  },
-  de: {
-    hike: ["Jeder Commit bringt dich den *Weg* entlang", "Eine Seitenansicht folgt dem echten Höhenprofil, dem Wetter und deiner Uhrzeit. Schau zurück auf deinen Weg."],
-    map: ["Echte Wege auf einer echten *Karte*", "Echte GPS-Tracks auf einer topografischen Karte: zoome wie auf Papier, und es erscheinen mehr Namen."],
-    places: ["Geschichten an jedem *Halt*", "Jeder Ort hat seine Geschichte und Fakten; die nächsten warten, bis du dort bist."],
-    stats: ["Deine Tage, deine *Serie*", "Die Strecke von heute, Serien, das Jahr im Kalender, die Höhenmeter und deine Erfolge."],
-    share: ["Teile, wo du *bist*", "Eine Postkarte deines Wegs für X, Bluesky, Mastodon, LinkedIn und mehr, mit fertigem Text."],
-  },
-  es: {
-    hike: ["Cada commit te lleva por el *sendero*", "Una escena lateral sigue el relieve real de la ruta, el tiempo y tu hora. Mira atrás el camino recorrido."],
-    map: ["Senderos reales en un *mapa* real", "Tracks GPS reales en un mapa topográfico: acércate como en papel y aparecen más nombres."],
-    places: ["Historias en cada *parada*", "Cada lugar tiene su historia y sus datos curiosos; los siguientes esperan a que llegues."],
-    stats: ["Tus días, tu *racha*", "La distancia de hoy, las rachas, el año en un calendario, el desnivel y tus logros."],
-    share: ["Comparte dónde *estás*", "Una postal de tu sendero para X, Bluesky, Mastodon, LinkedIn y más, con el texto listo."],
-  },
-};
+// The words of each language come from the screenshots section of
+// i18n/<lang>.json; *word* is drawn in the trail colour.
+const words = l => JSON.parse(fs.readFileSync(path.join(here, "..", "i18n", `${l}.json`), "utf8")).screenshots;
+const COPY = Object.fromEntries(LANGUAGES.map(l => [l, Object.fromEntries(Object.entries(words(l)).map(([k, v]) => [k, [v.title, v.text]]))]));
 const SHOTS = { hike: 0, map: 1, places: 2, stats: 4, share: 0 }; // tab index
 
 const PW = 404, PH = 700; // the panel, in CSS pixels
