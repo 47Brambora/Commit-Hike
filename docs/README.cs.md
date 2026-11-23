@@ -9,37 +9,49 @@
 
 *[English](../README.md) · [Українська](README.uk.md) · [Polski](README.pl.md) · [Deutsch](README.de.md) · [Español](README.es.md) · [Čeština](README.cs.md) · [Co je nového](../CHANGELOG.md)*
 
-Každý tvůj commit tě posune po turistické stezce, přímo v IDE. Den poctivé
-práce tě zavede asi deset kilometrů po skutečném horském hřebeni, přes poušť
-nebo pohádkou — se scénou, která se cestou mění, mapou, příběhy,
-zajímavostmi a úspěchy.
+Každý tvůj commit tě posune po turistické stezce přímo v IDE.
+Den poctivé práce tě zavede asi deset kilometrů po skutečném horském hřebeni, pouští nebo pohádkou, se scénou, která se cestou mění, mapou, příběhy, zajímavostmi a úspěchy.
 
 <p>
-  <img src="https://raw.githubusercontent.com/Shchusia/Commit-Hike/master/docs/screenshots/cs-hike.png" width="49%" alt="Túra: pohled na stezku z boku">
-  <img src="https://raw.githubusercontent.com/Shchusia/Commit-Hike/master/docs/screenshots/cs-map.png" width="49%" alt="Mapa: skutečná GPS stopa hřebene Čornohory">
+  <img src="https://raw.githubusercontent.com/Shchusia/Commit-Hike/master/docs/screenshots/cs-hike.png" width="49%" alt="Túra: pohled na trasu z boku">
+  <img src="https://raw.githubusercontent.com/Shchusia/Commit-Hike/master/docs/screenshots/cs-map.png" width="49%" alt="Mapa: skutečná GPS stopa po hřebeni Čornohory">
 </p>
 <p>
-  <img src="https://raw.githubusercontent.com/Shchusia/Commit-Hike/master/docs/screenshots/cs-places.png" width="49%" alt="Místa: každá zastávka a její příběh">
-  <img src="https://raw.githubusercontent.com/Shchusia/Commit-Hike/master/docs/screenshots/cs-stats.png" width="49%" alt="Statistiky: série, denní vzdálenost a úspěchy">
+  <img src="https://raw.githubusercontent.com/Shchusia/Commit-Hike/master/docs/screenshots/cs-places.png" width="49%" alt="Místa: ke každé zastávce se váže příběh">
+  <img src="https://raw.githubusercontent.com/Shchusia/Commit-Hike/master/docs/screenshots/cs-stats.png" width="49%" alt="Statistiky: nepřetržitá řada, denní vzdálenost a úspěchy">
 </p>
 
-## Funkce
+## Vlastnosti
 
-- **Skutečné, literární i autorské trasy.** Čornohora přes Hoverlu a novozélandský Tongariro Alpine Crossing po skutečných GPS stopách, Santiagova cesta z „Alchymisty“ skutečným Španělskem, Marokem, Saharou a Egyptem, pohádka v Karpatech nebo fantasy putování kolem sedmi majáků. Každá trasa má vlastní zastávky, příběh, zajímavosti a úspěchy.
-- **Trasy z webu.** Hledej trasy ostatních turistů na [commit-hike.dev](https://commit-hike.dev) přímo v IDE: vyhledávání, filtry, obálky, hodnocení; instalace jedním kliknutím a aktualizace, když autor vydá novou verzi. V Neovimu: `:CommitHike find`.
-- **Šest jazyků.** Angličtina, ukrajinština, polština, němčina, španělština a čeština — podle IDE nebo podle výběru v nastavení.
-- **Série.** Dokonči trasu a pokračuj dál: Karpaty (Čornohora → Svydovec → Gorgany) a dlouhé cesty (Tour du Mont Blanc → Camino Francés do Santiaga).
-- **Opravdové stoupání.** Trasy mají výškové profily: terén stoupá a klesá a ty vidíš nadmořskou výšku, sklon, nastoupané metry a stoupání k další zastávce.
-- **Živá scéna.** Obloha se řídí tvými hodinami, počasí se mění den ode dne a krajina — lesy, louky, step, poušť, skály, sníh, jezera, moře, sopky — plynule přechází jedna v druhou. V zimě sníh, na podzim zlaté louky, ve dnech bez commitů tábor u ohně.
-- **Mapa a minimapa.** Topografická mapa celé stezky: vrstevnice, stínování, lesy a jezera; skutečné trasy podle GPS stopy ve skutečném měřítku.
-- **Skutečné vzdálenosti, tvoje obtížnost.** Typický den commitů je asi 10 km na střední obtížnost (12,5 na lehkou, 8 na těžkou), takže dlouhá trasa je cíl na měsíce.
-- **Bez spoilerů.** Cestu, kterou máš za sebou, si můžeš prohlédnout, ale co leží před tebou, uvidíš až na místě.
-- **Rok na stezce a pas.** Kalendář aktivity, nejlepší den, nejdelší série a v pasu razítko s datem za každou zastávku.
-- **Sdílej.** Pohlednice z místa, kde právě jsi: ulož ji, zkopíruj nebo zveřejni na X, Bluesky, Mastodonu, Threads, LinkedInu, Facebooku, Telegramu nebo Redditu s připraveným textem.
-- **I v terminálu.** Jeden řádek ve výzvě shellu (starship, bash, zsh, fish) a ve stavovém řádku Neovimu, ze stejného jádra: `🥾 16,0 km · Jezero Nesamovyte`.
-- **Choďte spolu.** Všichni, kdo commitují do projektu, na jedné stezce, s žebříčkem, přehledem týdne a týmovým cílem: trasou, kterou jdete společně a na které se sčítají commity všech.
-- **Férová vzdálenost.** Metry rostou s velikostí commitu, od pár kroků za jednořádkovou opravu po skoro 4 km za velkou změnu, a rychleji než asi 5 km za hodinu nepůjdeš: drobné commity ani commity v dávkách nic nepřinesou, zatímco dlouhý pracovní den se počítá celý, pozdní commity taky. Lock soubory, generovaný kód, změny jen v mezerách a cizí commity se nepočítají; po squash, rebase nebo amend se historie přepočítá, nikdy se nepočítá dvakrát.
-- **Soukromí na prvním místě.** Nic se nezapisuje do tvých repozitářů a nic o tobě neopouští tvůj počítač: jediné požadavky jdou na [commit-hike.dev](https://commit-hike.dev), když otevřeš *Trasy z webu* nebo instaluješ trasu, a čtou veřejný katalog, aniž by o tobě cokoli posílaly. Neukládáme kód, zprávy commitů, názvy souborů ani repozitářů.
+- **Skutečné, příběhové, ale i uživatelské trasy:** Přes Čornohorský hřeben, který se táhne přes Hoverlu. Nebo přes novozélandský Tongariro Alpine Crossing, který je stejný jako v realitě díky GPS. Či dokonce Španělskem, Marokem, Saharou, Egyptem, které se všechny zakládají na skutečném mapovém podkladu. Nebo pokud budete chtít tak se můžete vydat pohádkovými Karpaty a nebo na fantazii cestu okolo sedmi majáků.  
+  Každá trasa má své vlastní zastávky, příběh, fakta, zajímavosti a úspěchy.  
+- **Trasy z webu přístupné v IDE:** Najdi trasy které vytvořil někdo jiný na [commit-hike.dev](https://commit-hike.dev) přímo v IDE:  
+  - vyhledávání, filtry, přebaly, hodnocení  
+  - instalace a aktualizace na jedno kliknutí v IDE  
+  - Instalace a aktualizace v Neovimu: `:CommitHike find`  
+- **Několik jazyků na výběr:** Čeština, angličtina, ukrajinština, polština, němčina, španělština  
+  Výběr je automatický dle IDE a nebo manuálním výběrem
+- **Pokračující trasy:** Když dokončíš trasu, tak cesta nekončí, můžeš v ní pokračovat dále.  
+  např.: (`Čornohora` → `Svidovec` → `Gorgany`) nebo (`Tour du Mont Blanc` → `Camino Francés do Santiaga`).  
+- **Reálné převýšení:** Trasy mají reálný výškový profil (klesání/stoupání)
+  v IDE vidíme nastoupané metry, nadmořskou výšku, sklon a stoupání k další zastávce
+- **Reálné prostředí:** Obloha se řídí časem na tvém zařízení.  
+  Počasí se mění každý den  
+  Prostředí přechází mezi sebou plynule (lesy, louky, step, poušť, skály, jezera,...)  
+  Roční období (V zimě sníh, na podzim krásně zbarvená krajina)  
+  Když nepřijde ten den commit, tak se zastavíš a rozděláš oheň a odpočíváš  
+- **Mapa a minimapa:** Topografická mapa celé trasy: (Vrstevnice, lesy, louky, jezera,...)  
+  Skutečné trasy dle GPS souřadnic
+
+- **Mapa a minimapa:** Topografická mapa celé stezky: vrstevnice, stínování, lesy a jezera; skutečné trasy podle GPS stopy ve skutečném měřítku.
+- **Skutečné vzdálenosti, tvoje obtížnost:** Typický den commitů je asi 10 km na střední obtížnost (12,5 na lehkou, 8 na těžkou), takže dlouhá trasa je cíl na měsíce.
+- **Bez spoilerů:** Cestu, kterou máš za sebou, si můžeš prohlédnout, ale co leží před tebou, uvidíš až ve chvíli, kdy se tam dostaneš.
+- **Rok na stezce a pas:** Kalendář aktivity, nejlepší den, nejdelší série a v pasu razítko s datem za každou zastávku.
+- **Sdílej:** Pohlednice z místa, kde právě jsi: ulož ji, zkopíruj nebo zveřejni na X, Bluesky, Mastodonu, Threads, LinkedInu, Facebooku, Telegramu nebo Redditu s připraveným textem.
+- **I v terminálu:** Jeden řádek ve výzvě shellu (starship, bash, zsh, fish) a ve stavovém řádku Neovimu, ze stejného jádra: `🥾 16,0 km · Jezero Nesamovyte`.
+- **Choďte spolu:** Všichni, kdo commitují do projektu, na jedné stezce, s žebříčkem, přehledem týdne a týmovým cílem: trasou, kterou jdete společně a na které se sčítají commity všech.
+- **Férová vzdálenost:** Metry rostou s velikostí commitu, od pár kroků za jednořádkovou opravu po skoro 4 km za velkou změnu, a rychleji než asi 5 km za hodinu nepůjdeš: drobné commity ani commity v dávkách nic nepřinesou, zatímco dlouhý pracovní den se počítá celý, pozdní commity taky. Lock soubory, generovaný kód, změny jen v mezerách a cizí commity se nepočítají; po squash, rebase nebo amend se historie přepočítá, nikdy se nepočítá dvakrát.
+- **Soukromí na prvním místě:** Nic se nezapisuje do tvých repozitářů a nic o tobě neopouští tvůj počítač: jediné požadavky jdou na [commit-hike.dev](https://commit-hike.dev), když otevřeš *Trasy z webu* nebo instaluješ trasu, a čtou veřejný katalog, aniž by o tobě cokoli posílaly. Neukládáme kód, zprávy commitů, názvy souborů ani repozitářů.
 
 ## Podporovaná IDE
 
