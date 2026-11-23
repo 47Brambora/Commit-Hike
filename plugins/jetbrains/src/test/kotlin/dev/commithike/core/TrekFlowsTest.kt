@@ -391,17 +391,25 @@ class TrekFlowsTest {
         user.actions.last()() // "Walk it now"
         assertEquals("my-ridge", host.cli.status().global!!.route.id)
 
-        user.confirms = false // importing it again asks before replacing; "no" keeps it
+        // a new version of the route being walked: the trail shows it at once, not after the next commit
+        var before = host.refreshed
         flows(host, user).importRoute()
         assertEquals(1, user.asked)
+        assertTrue(host.refreshed > before)
+
+        user.confirms = false // importing it again asks before replacing; "no" keeps it
+        flows(host, user).importRoute()
+        assertEquals(2, user.asked)
 
         user.removeFirst = false
         flows(host, user).removeRoute() // cancelled
         assertTrue(host.cli.routes().any { it.id == "my-ridge" })
         host.cli.setJourney(Scope.GLOBAL, "demo-trail", fromHistory = false) // a route in use can't go
         user.removeFirst = true
+        before = host.refreshed
         flows(host, user).removeRoute()
         assertFalse(host.cli.routes().any { it.id == "my-ridge" })
+        assertTrue(host.refreshed > before)
         flows(host, user).removeRoute() // nothing left to remove
         assertEquals("", user.titles.last())
     }

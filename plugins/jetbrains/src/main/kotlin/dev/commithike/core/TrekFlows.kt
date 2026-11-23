@@ -221,6 +221,7 @@ class TrekFlows(private val host: TrekHost, private val ui: TrekUi, private val 
             host.core { it.importRoute(file.path, replace = true) }
         }
         host.reloadRoutes()
+        host.refreshAll() // a new version of the route being walked shows at once
         ui.notify(
             I18n.t("importedText", route.name, I18n.distance(route.lengthM), route.waypoints.orEmpty().size),
             I18n.t("walkNow"),
@@ -235,6 +236,7 @@ class TrekFlows(private val host: TrekHost, private val ui: TrekUi, private val 
         val route = ui.pickRouteToRemove(custom) ?: return
         host.core { it.removeRoute(route.id) }
         host.reloadRoutes()
+        host.refreshAll()
         ui.notify(I18n.t("removed", route.name), title = "")
     }
 

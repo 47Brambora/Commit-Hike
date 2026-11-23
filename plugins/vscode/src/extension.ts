@@ -478,6 +478,7 @@ class App {
       route = await this.cli.importRoute(src, true);
     }
     await this.reloadRoutes();
+    await this.refresh(); // a new version of the route being walked shows at once
     const a = await vscode.window.showInformationMessage(
       t("imported", route.name, formatDistance(route.length_m), route.waypoints.length), t("walkNow"));
     if (a) {
@@ -506,6 +507,7 @@ class App {
     if (!pick) return;
     await this.cli.removeRoute(pick.id);
     await this.reloadRoutes();
+    await this.refresh();
     void vscode.window.showInformationMessage(t("removed", pick.label));
   }
 
