@@ -1,0 +1,146 @@
+{
+  "name": "Francouzská cesta do Santiaga",
+  "description": "Francouzská větev Svatojakubské cesty, 772 km ze Saint-Jean-Pied-de-Port přes Pyreneje a napříč Španělskem do Santiaga de Compostela. Stopa spojuje zastávky; Cruz de Ferro je umístěn podél ní.",
+  "waypoints": {
+    "sjpp": {
+      "name": "Saint-Jean-Pied-de-Port",
+      "text": "Tady dostávají poutníci první razítko, na úpatí Pyrenejí."
+    },
+    "roncesvalles": {
+      "name": "Roncesvalles",
+      "text": "Přes Pyreneje do Španělska: opatství a poutnická ubytovna."
+    },
+    "pamplona": {
+      "name": "Pamplona",
+      "text": "Město býčích běhů."
+    },
+    "puente-la-reina": {
+      "name": "Puente la Reina",
+      "text": "Most z 11. století postavený pro poutníky."
+    },
+    "estella": {
+      "name": "Estella",
+      "text": "Nedaleko odsud teče poutníkům z fontány víno."
+    },
+    "logrono": {
+      "name": "Logroño",
+      "text": "Hlavní město vína Rioja."
+    },
+    "burgos": {
+      "name": "Burgos",
+      "text": "Gotická katedrála na okraji Mesety."
+    },
+    "leon": {
+      "name": "León",
+      "text": "Přes širou Mesetu ke katedrále světla."
+    },
+    "astorga": {
+      "name": "Astorga",
+      "text": "Gaudí tu postavil palác."
+    },
+    "cruz-de-ferro": {
+      "name": "Cruz de Ferro",
+      "text": "Nejvyšší bod: poutníci tu nechávají kámen přinesený z domova."
+    },
+    "ponferrada": {
+      "name": "Ponferrada",
+      "text": "Templářský hrad."
+    },
+    "o-cebreiro": {
+      "name": "O Cebreiro",
+      "text": "Kamenné chýše s doškovými střechami u brány do Galicie."
+    },
+    "sarria": {
+      "name": "Sarria",
+      "text": "Mnozí začínají tady: 100 km je minimum pro Compostelu."
+    },
+    "portomarin": {
+      "name": "Portomarín",
+      "text": "Kostel přenesený kámen po kameni, když údolí zaplavila přehrada."
+    },
+    "santiago": {
+      "name": "Santiago de Compostela",
+      "text": "Náměstí před katedrálou, konec Cesty."
+    },
+    "alto-del-perdon": {
+      "name": "Alto del Perdón",
+      "text": "Větrný hřeben s řadou větrných turbín a železnými poutníky, kteří kráčejí po nebi."
+    },
+    "irache": {
+      "name": "Vinná fontána v Irache",
+      "text": "Vedle kláštera Irache teče poutníkům z kohoutku červené víno zdarma."
+    },
+    "san-juan-de-ortega": {
+      "name": "San Juan de Ortega",
+      "text": "Klášter v dubových lesích Montes de Oca, založený světcem, který stavěl poutníkům mosty."
+    },
+    "san-anton": {
+      "name": "Klášter San Antón",
+      "text": "Cesta vede přímo pod gotickými oblouky zříceného kláštera."
+    },
+    "monte-do-gozo": {
+      "name": "Monte do Gozo",
+      "text": "„Hora radosti“, odkud poutníci tradičně poprvé spatřili věže katedrály."
+    }
+  },
+  "story": {
+    "meseta": "Meseta: pšenice až k obzoru a za společníka jen vlastní myšlenky.",
+    "stone": "U železného kříže položíš kámen, který tě provázel celou cestu.",
+    "galicia": "Galicie: zelené kopce, déšť a eukalypty a na každém rohu žluté šipky."
+  },
+  "facts": {
+    "shell": "Hřebenatka značí Svatojakubskou cestu už tisíc let.",
+    "compostela": "Ujdi posledních 100 km a katedrála ti vydá Compostelu, poutnické osvědčení.",
+    "unesco": "Cesty do Santiaga jsou zapsány na seznam světového dědictví UNESCO.",
+    "km-zero": "Mnozí pokračují dál do Finisterre, které kdysi považovali za konec světa."
+  },
+  "achievements": {
+    "cam-start": {
+      "name": "Buen Camino",
+      "description": "Ujdi prvních 5 km."
+    },
+    "cam-pyrenees": {
+      "name": "Přes Pyreneje",
+      "description": "Překroč hranici do Španělska."
+    },
+    "cam-meseta": {
+      "name": "Meseta přejita",
+      "description": "Přejdi Mesetu až do Leónu."
+    },
+    "cam-stone": {
+      "name": "Kámen, který zůstal",
+      "description": "Dojdi ke Cruz de Ferro."
+    },
+    "cam-finish": {
+      "name": "Compostela",
+      "description": "Projdi celou Cestu až do Santiaga."
+    },
+    "cam-commits": {
+      "name": "Poutnická trpělivost",
+      "description": "Udělej na Cestě 500 commitů."
+    },
+    "cam-cathedrals": {
+      "name": "Města katedrál",
+      "description": "Dojdi ke katedrálám v Burgosu a Leónu."
+    },
+    "cam-wine": {
+      "name": "Sklenka na cestu",
+      "description": "Dojdi k vinné fontáně v Irache."
+    },
+    "cam-meseta-km": {
+      "name": "Nekonečná Meseta",
+      "description": "Ujdi 100 km napříč Mesetou."
+    },
+    "cam-dawn": {
+      "name": "Poutnické svítání",
+      "description": "Udělej 15 commitů mezi 5. a 8. hodinou ranní: poutníci vyrážejí před východem slunce."
+    },
+    "cam-weekend": {
+      "name": "Nedělní poutník",
+      "description": "Udělej 20 commitů o víkendu."
+    }
+  },
+  "objects": {
+    "templars": "Templářský hrad v Ponferradě"
+  }
+}

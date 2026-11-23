@@ -100,6 +100,10 @@ var BiomeTypes = []string{
 	"underwater", // kelp and coral under a blue-green sea; fish and bubbles
 	"moon",       // grey craters under a black sky with the Earth in it
 	"mars",       // red rocks under a butterscotch sky with two small moons
+	// added in 1.3.0: on the water, the hiker crosses on a raft, a boat or a ship
+	"river", // a raft between reeds and lily pads
+	"lake",  // a rowing boat, ducks, a jetty
+	"sea",   // a sailing ship, whitecaps, buoys
 }
 
 // IDPattern is what route ids may look like: they become folder names on

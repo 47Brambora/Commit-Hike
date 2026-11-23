@@ -1,0 +1,140 @@
+{
+  "name": "Sedm majáků",
+  "description": "Původní dlouhá pouť podél Tichého moře, 700 km od solné pouště k severnímu ledu, za znovuzažehnutím sedmi majáků, které během jediné noci zhasly. S vlastní ručně kreslenou mapou.",
+  "waypoints": {
+    "salt-gate": {
+      "name": "Solná brána",
+      "text": "Sedm světel zhaslo během jediné noci. Cech strážců majáků ti svěří poslední uhlík a mapu."
+    },
+    "light-1": {
+      "name": "Maják v dunách",
+      "text": "Písek až k oknům. Odklidíš schody a zapálíš první lampu."
+    },
+    "three-wells": {
+      "name": "Oáza Tří studní",
+      "text": "Palmy, stín a studená voda. Karavana mířící na sever tě nechá jít s sebou."
+    },
+    "light-2": {
+      "name": "Maják na Mysu větrů",
+      "text": "Vítr ti málem vezme uhlík. Zakryješ ho dlaní a světlo vzplane."
+    },
+    "shepherds-pass": {
+      "name": "Pastýřské sedlo",
+      "text": "Z vrcholu stepní vysočiny vidíš celé pobřeží a za sebou tři hořící světla."
+    },
+    "light-3": {
+      "name": "Maják Kamenných strážců",
+      "text": "Věž obklopuje kruh menhirů jako staří strážci."
+    },
+    "rye-valley": {
+      "name": "Mlýny v Žitném údolí",
+      "text": "Nad zlatými poli se otáčejí větrné mlýny. Mlynáři ti upečou chléb na cestu."
+    },
+    "light-4": {
+      "name": "Maják u vraku",
+      "text": "Na písku leží rozbitá loď. Dnes v noci se k ní žádná další nepřidá."
+    },
+    "misty-fens": {
+      "name": "Mlžná slatiniště",
+      "text": "Rákosí vyšší než ty. Kráčíš po staré povalové cestě, prkno po prknu."
+    },
+    "light-5": {
+      "name": "Volavčí maják",
+      "text": "Na ochozu hnízdí volavky a tvoje přítomnost je vůbec neruší."
+    },
+    "birch-grove": {
+      "name": "Březový háj",
+      "text": "Bílé kmeny a první chladná noc. Spíš u malého ohně."
+    },
+    "light-6": {
+      "name": "Tichý maják",
+      "text": "Tady mlčí i moře. Lampa se chytí s tichým zasyčením."
+    },
+    "light-7": {
+      "name": "Severní maják",
+      "text": "Poslední lampa přijme uhlík. Podél Tichého moře hoří sedm světel a nebe nad tebou začíná zářit."
+    }
+  },
+  "story": {
+    "heat": "Nad solí se tetelí horko. Uhlík v lucerně je jediná věc chladnější než vzduch.",
+    "caravan": "Velbloudáři zpívají, aby udrželi krok. Do druhého večera se naučíš refrén.",
+    "half": "Polovina cesty. Za tebou tři světla. Před tebou čekají čtyři temné věže.",
+    "fog": "Mlha je tak hustá, že se orientuješ podle vůně moře.",
+    "snow": "Sníh ti vrže pod botami. Severní maják stojí na posledním útesu před ledem."
+  },
+  "facts": {
+    "pharos": "Alexandrijský maják Faros, jeden ze sedmi divů starověkého světa, dal majákům jméno v mnoha jazycích: phare, faro, far.",
+    "singing-dunes": "Některé duny zpívají: když se po jejich svahu sesouvá písek, může vydávat hluboké hučení slyšitelné na kilometry daleko.",
+    "fresnel": "V roce 1822 navrhl Augustin-Jean Fresnel prstencovou čočku, díky níž jediná lampa svítila na desítky kilometrů.",
+    "steppe": "Eurasijská step se táhne v délce asi 8 000 km, od Dunaje až po Mandžusko.",
+    "carnac": "V Carnaku v Bretani stojí přes 3 000 pravěkých menhirů v dlouhých řadách napříč poli.",
+    "windmills": "Nejstarší známé větrné mlýny se otáčely v Persii před více než tisíci lety a jejich lopatky se točily kolem svislé osy.",
+    "characteristic": "Každý maják má svou charakteristiku, vzorec záblesků, aby námořníci v noci poznali jedno světlo od druhého.",
+    "peat": "Rašeliniště pokrývají jen asi 3 % souše, a přesto uchovávají zhruba dvakrát víc uhlíku než všechny lesy světa dohromady.",
+    "birch": "Břízy jsou průkopnice: často jsou prvními stromy, které vyrostou po požáru nebo na holé půdě.",
+    "permafrost": "V tundře v létě rozmrzá jen tenká svrchní vrstva; pod ní leží permafrost, který může zůstat zmrzlý tisíce let.",
+    "aurora": "Polární záře svítí, když částice ze Slunce narážejí do horních vrstev atmosféry; obvyklé zelené světlo pochází z kyslíku ve výšce asi 100–300 km."
+  },
+  "objects": {
+    "tower-1": "Maják 1 ze 7",
+    "tower-2": "Maják 2 ze 7",
+    "tower-3": "Maják 3 ze 7",
+    "tower-4": "Maják 4 ze 7",
+    "tower-5": "Maják 5 ze 7",
+    "tower-6": "Maják 6 ze 7",
+    "tower-7": "Maják 7 ze 7",
+    "caravan": "Karavana na sever",
+    "wreck": "Vrak na písku",
+    "aurora": "Polární záře"
+  },
+  "achievements": {
+    "ember": {
+      "name": "Nositel uhlíku",
+      "description": "Ujdi prvních 100 m."
+    },
+    "first-light": {
+      "name": "První světlo",
+      "description": "Znovu zažehni Maják v dunách."
+    },
+    "highlands": {
+      "name": "Horal",
+      "description": "Přejdi stepní vysočinu ve výšce nad 800 m."
+    },
+    "halfway": {
+      "name": "Hoří čtyři světla",
+      "description": "Znovu zažehni Maják u vraku."
+    },
+    "big-day": {
+      "name": "Dlouhý denní pochod",
+      "description": "Ujdi 20 km za jediný den."
+    },
+    "steady": {
+      "name": "Kázeň strážce majáku",
+      "description": "Commituj 10 dní po sobě."
+    },
+    "commits-300": {
+      "name": "Tři sta kroků",
+      "description": "Udělej na této trase 300 commitů."
+    },
+    "seven": {
+      "name": "Sedm světel",
+      "description": "Znovu zažehni všech sedm majáků."
+    },
+    "salt-road": {
+      "name": "Solná cesta",
+      "description": "Ujdi 30 km přes solnou pláň."
+    },
+    "every-shore": {
+      "name": "Každý břeh a každé pole",
+      "description": "Projdi 12 různými druhy krajiny."
+    },
+    "keepers-sunday": {
+      "name": "Neděle strážce majáku",
+      "description": "Udělej 12 commitů o víkendu: strážci majáků nikdy neodpočívají."
+    },
+    "lamp-lighter": {
+      "name": "Rozsvěcovač lamp",
+      "description": "Udělej 10 commitů mezi půlnocí a 5. hodinou ranní, dokud světla hoří."
+    }
+  }
+}

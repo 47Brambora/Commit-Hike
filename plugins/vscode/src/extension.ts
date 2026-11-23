@@ -5,7 +5,7 @@ import * as vscode from "vscode";
 import {
   Avatar, Cli, CliError, Level, LocaleInfo, Route, RouteAssets, ScanResult, Settings, Status, Team, bundledBinary, ensureExecutable, gitGlobalEmail,
 } from "./cli";
-import { LANGUAGE_NAMES, formatDistanceL as formatDistance, language, setLanguage, t } from "./i18n";
+import { LANGUAGES, LANGUAGE_NAMES, formatDistanceL as formatDistance, language, setLanguage, t } from "./i18n";
 import { PanelMessage, TrailPanel } from "./panel";
 import * as rating from "./rating";
 import { RepoTracker } from "./repos";
@@ -538,7 +538,7 @@ class App {
     if (!this.initialized) return this.setup();
     const info = this.localeInfo ?? await this.cli.locale();
     type Item = vscode.QuickPickItem & { value: string };
-    const langs = [...new Set(["en", "uk", ...info.available])];
+    const langs = [...new Set([...LANGUAGES, ...info.available])];
     const items: Item[] = [{ label: t("langAuto"), value: "auto", description: info.locale === "" ? t("langCurrent") : undefined },
       ...langs.map(l => ({ label: LANGUAGE_NAMES[l] ?? l, value: l, description: info.locale === l ? t("langCurrent") : undefined }))];
     const pick = await vscode.window.showQuickPick(items, { title: t("langTitle") });

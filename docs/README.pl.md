@@ -7,7 +7,7 @@
 [![GitHub stars](https://img.shields.io/github/stars/Shchusia/Commit-Hike?style=flat&logo=github)](https://github.com/Shchusia/Commit-Hike)
 [![License: MIT](https://img.shields.io/badge/license-MIT-blue)](../LICENSE)
 
-*[English](../README.md) · [Українська](README.uk.md) · [Polski](README.pl.md) · [Deutsch](README.de.md) · [Español](README.es.md) · [Co nowego](../CHANGELOG.md)*
+*[English](../README.md) · [Українська](README.uk.md) · [Polski](README.pl.md) · [Deutsch](README.de.md) · [Español](README.es.md) · [Čeština](README.cs.md) · [Co nowego](../CHANGELOG.md)*
 
 Każdy twój commit prowadzi cię szlakiem turystycznym, wprost w IDE. Dzień
 rzetelnej pracy to około dziesięciu kilometrów prawdziwym grzbietem górskim,
@@ -27,7 +27,7 @@ historiami, ciekawostkami i osiągnięciami.
 
 - **Prawdziwe, literackie i autorskie trasy.** Czarnohora przez Howerlę i nowozelandzkie Tongariro Alpine Crossing na prawdziwych śladach GPS, droga Santiago z „Alchemika” przez prawdziwą Hiszpanię, Maroko, Saharę i Egipt, baśń w Karpatach albo fantastyczna wędrówka wzdłuż siedmiu latarni. Każda trasa ma własne przystanki, historię, ciekawostki i osiągnięcia.
 - **Trasy ze strony.** Szukaj tras innych wędrowców na [commit-hike.dev](https://commit-hike.dev) prosto w IDE: wyszukiwanie, filtry, okładki, oceny; instalacja jednym kliknięciem i aktualizacja, gdy autor wyda nową wersję. W Neovim: `:CommitHike find`.
-- **Pięć języków.** Angielski, ukraiński, polski, niemiecki i hiszpański — jak w IDE albo wybrany w ustawieniach.
+- **Sześć języków.** Angielski, ukraiński, polski, niemiecki, hiszpański i czeski — jak w IDE albo wybrany w ustawieniach.
 - **Serie.** Skończ trasę i idź dalej: Karpaty (Czarnohora → Świdowiec → Gorgany) i długie drogi (Tour du Mont Blanc → Camino Francés do Santiago).
 - **Prawdziwe wspinanie.** Trasy mają profile wysokości: teren wznosi się i opada, a ty widzisz wysokość, nachylenie, pokonane przewyższenie i podejście do następnego przystanku.
 - **Żywa scena.** Niebo idzie za twoim zegarem, pogoda zmienia się z dnia na dzień, a krajobraz — lasy, łąki, step, pustynia, skały, śnieg, jeziora, morze, wulkany — płynnie przechodzi jeden w drugi. Zimą śnieg, jesienią złote łąki, w dni bez commitów obóz przy ognisku.

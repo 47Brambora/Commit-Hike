@@ -7,7 +7,7 @@
 [![GitHub stars](https://img.shields.io/github/stars/Shchusia/Commit-Hike?style=flat&logo=github)](https://github.com/Shchusia/Commit-Hike)
 [![License: MIT](https://img.shields.io/badge/license-MIT-blue)](LICENSE)
 
-*[English](README.md) · [Українська](docs/README.uk.md) · [Polski](docs/README.pl.md) · [Deutsch](docs/README.de.md) · [Español](docs/README.es.md) · [What's new](CHANGELOG.md)*
+*[English](README.md) · [Українська](docs/README.uk.md) · [Polski](docs/README.pl.md) · [Deutsch](docs/README.de.md) · [Español](docs/README.es.md) · [Čeština](docs/README.cs.md) · [What's new](CHANGELOG.md)*
 
 Every commit you make moves you along a hiking trail, right inside your IDE.
 A day of steady work takes you about ten kilometers along a real mountain
@@ -27,7 +27,7 @@ a map, stories, facts and achievements.
 
 - **Real, literary and original routes.** Walk the Chornohora ridge over Hoverla and New Zealand's Tongariro Alpine Crossing on their real GPS tracks, Santiago's journey from The Alchemist across real Spain, Morocco, the Sahara and Egypt on real terrain, a folk tale through the Carpathians or a fantasy journey past seven lighthouses. Each route has its own stops, story, facts and achievements.
 - **Routes from the site.** Find routes other walkers made on [commit-hike.dev](https://commit-hike.dev) right in the IDE: search, filters, covers, ratings; install with one click, and update when the author publishes a new version. In Neovim: `:CommitHike find`.
-- **Five languages.** English, Ukrainian, Polish, German and Spanish, following your IDE or chosen in the settings.
+- **Six languages.** English, Ukrainian, Polish, German, Spanish and Czech, following your IDE or chosen in the settings.
 - **Series.** Finish a route and walk on to the next: the Carpathians (Chornohora → Svydovets → Gorgany) and the long ways (Tour du Mont Blanc → Camino Francés to Santiago).
 - **Seasons, camps and a passport.** Snow in winter, golden meadows in autumn, a camp by the fire on days without commits, and a passport with a dated stamp for every stop you've reached.
 - **Climb for real.** Routes have elevation profiles: the ground rises and falls, your hiker leans into the slope, and you see your altitude, the grade, how much you've climbed and the climb left to the next stop. Some achievements are about height.

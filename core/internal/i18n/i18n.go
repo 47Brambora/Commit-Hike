@@ -14,10 +14,23 @@ import (
 // DefaultLocale is the last fallback for every lookup.
 const DefaultLocale = "en"
 
-// UILocales are the languages the panel and the IDE plugins are translated
-// into. They count as available even before every route is translated:
-// route texts fall back to English.
-var UILocales = []string{"en", "uk", "pl", "de", "es"}
+// UILocales and Units live in languages.go, generated from i18n/<lang>.json.
+
+// Unit says how a language writes a distance: "8,4 km", "640 м".
+type Unit struct {
+	Decimal, M, KM string
+}
+
+// UnitsOf returns the units of a language tag ("uk-UA" → uk), English for
+// languages the interface isn't translated into.
+func UnitsOf(tag string) Unit {
+	for _, l := range Chain(tag) {
+		if u, ok := Units[l]; ok {
+			return u
+		}
+	}
+	return Units[DefaultLocale]
+}
 
 // Catalog is a flat key -> text map, e.g. "waypoints.trailhead.name".
 type Catalog map[string]string

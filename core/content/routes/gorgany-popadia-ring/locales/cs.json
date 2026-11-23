@@ -1,0 +1,81 @@
+{
+  "name": "Gorgany: okruh přes Popadju",
+  "description": "Okruh přes kamenná pole Gorgan: Osmoloda, Hrofa, Parenky, Popadja, Koretvyna a zpět. Stopa spojuje zastávky; ty bez ověřených souřadnic jsou rozmístěny podél ní.",
+  "waypoints": {
+    "osmoloda": {
+      "name": "Osmoloda",
+      "text": "Lesní vesnice v srdci Gorgan, začátek okruhu."
+    },
+    "kin-hrofetskyi": {
+      "name": "Kiň Hrofeckyj",
+      "text": "„Hrofský kůň“, první vyhlídka nad lesem."
+    },
+    "grofa": {
+      "name": "Hrofa",
+      "text": "Za jasného dne odsud uvidíš Hoverlu, 84 km daleko."
+    },
+    "parenky": {
+      "name": "Parenky",
+      "text": "Kamenitý vrchol se širokým výhledem na Petros a Popadju."
+    },
+    "mala-popadia": {
+      "name": "Mala Popadja",
+      "text": "Mladší sestra Popadji."
+    },
+    "popadia": {
+      "name": "Popadja",
+      "text": "Její kamenná pole, „gorgany“, daly těmto horám jméno."
+    },
+    "koretvyna": {
+      "name": "Koretvyna",
+      "text": "Poslední vrchol před dlouhým sestupem."
+    },
+    "osmoloda-return": {
+      "name": "Zpět v Osmolodě",
+      "text": "Okruh se uzavírá tam, kde začal."
+    }
+  },
+  "story": {
+    "stone-fields": "Nad klečí vede stezka přes pole šedého kamení, které se ti pod nohama hýbe.",
+    "dwarf-pine": "Kleč tu dorůstá do pasu a skrývá stezku."
+  },
+  "facts": {
+    "gorgan-word": "„Gorgan“ je místní slovo pro suťové pole z pískovcových balvanů; podle nich se jmenuje celé pohoří.",
+    "grofa-view": "Z Hrofy uvidíš Hoverlu a hřeben Čornohory, 84 km daleko.",
+    "highest": "Nejvyšším vrcholem Gorgan je Velyka Syvulja, 1 836 m, na východ od tohoto okruhu."
+  },
+  "achievements": {
+    "gorg-start": {
+      "name": "Do Gorgan",
+      "description": "Ujdi prvních 100 m."
+    },
+    "gorg-grofa": {
+      "name": "Hoverla na obzoru",
+      "description": "Vystoupej na Hrofu."
+    },
+    "gorg-popadia": {
+      "name": "Chodec po kamení",
+      "description": "Přejdi kamenná pole až na Popadju."
+    },
+    "gorg-finish": {
+      "name": "Okruh uzavřen",
+      "description": "Projdi celý okruh přes Popadju zpět do Osmolody."
+    },
+    "gorg-day": {
+      "name": "Dlouhý kamenitý den",
+      "description": "Ujdi 8 km za jeden den."
+    },
+    "gorg-peaks": {
+      "name": "Všechny vrcholy okruhu",
+      "description": "Stoupni si na všech šest vrcholů okruhu."
+    },
+    "gorg-scree": {
+      "name": "Moře kamení",
+      "description": "Ujdi 15 km po suti Gorgan."
+    },
+    "gorg-mist": {
+      "name": "Mlha v údolí",
+      "description": "Udělej 10 commitů mezi 5. a 8. hodinou ranní."
+    }
+  }
+}

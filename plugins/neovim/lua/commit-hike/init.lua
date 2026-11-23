@@ -27,87 +27,13 @@ local state = {
 
 -- ---------------------------------------------------------------- texts
 -- Labels of :CommitHike status. Route texts come translated from the core.
-local TEXTS = {
-  en = {
-    siteFind = "Routes from the site", siteNone = "No routes found on the site", siteOffline = "Can't reach the routes site: check the connection",
-    siteInstalled = "Installed: %s (version %d)", siteReplace = "You have a route of your own with the id %s. Replace it with the one from the site?",
-    walkNow = "Walk it now?", later = "Later", markInstalled = "installed", markUpdate = "update", markBuiltin = "built in", markLocal = "your own",
-    by = "by %s",
-    title = "Commit Hike", walked = "Walked", place = "You are at", next = "Next stop", today = "Today", streak = "Streak",
-    altitude = "Altitude", finished = "Trail completed", days = "%d days", noJourney = "No trail yet: run :CommitHike route",
-    notSetUp = "Commit Hike isn't set up yet: run :CommitHike init", missing = "commit-hike isn't installed: see :help commit-hike-install",
-    pickRoute = "Choose a trail", history = "Count the commits you already made?", yes = "Yes, from the start of the history",
-    no = "No, from now on", pickDifficulty = "Difficulty", pickLang = "Language", auto = "Same as the editor",
-    scanned = "Counted %d new commits", initDone = "Commit Hike is set up for %s",
-    pickScoring = "Rules for commits made before 1.2", scoringOn = "Recount the whole history by the new rules",
-    scoringOff = "Keep the old rules for them", scoringDone = "Distance recounted: %s → %s",
-    scoringAlways = "Your whole history already counts by the new rules",
-  },
-  uk = {
-    siteFind = "Маршрути з сайту", siteNone = "На сайті не знайшлося маршрутів", siteOffline = "Не вдається зв'язатися із сайтом маршрутів: перевір з'єднання",
-    siteInstalled = "Встановлено: %s (версія %d)", siteReplace = "У тебе є власний маршрут з ідентифікатором %s. Замінити його маршрутом із сайту?",
-    walkNow = "Іти зараз?", later = "Пізніше", markInstalled = "встановлено", markUpdate = "оновити", markBuiltin = "вбудований", markLocal = "власний",
-    by = "автор: %s",
-    title = "Commit Hike", walked = "Пройдено", place = "Ти тут", next = "Наступна зупинка", today = "Сьогодні", streak = "Серія",
-    altitude = "Висота", finished = "Стежку пройдено", days = "%d дн.", noJourney = "Стежку ще не вибрано: :CommitHike route",
-    notSetUp = "Commit Hike ще не налаштовано: :CommitHike init", missing = "commit-hike не встановлено: див. :help commit-hike-install",
-    pickRoute = "Вибери стежку", history = "Рахувати вже зроблені коміти?", yes = "Так, від початку історії",
-    no = "Ні, відтепер", pickDifficulty = "Складність", pickLang = "Мова", auto = "Як у редакторі",
-    scanned = "Пораховано нових комітів: %d", initDone = "Commit Hike налаштовано для %s",
-    pickScoring = "Правила для комітів, зроблених до 1.2", scoringOn = "Перерахувати всю історію за новими правилами",
-    scoringOff = "Лишити для них старі правила", scoringDone = "Відстань перераховано: %s → %s",
-    scoringAlways = "Уся твоя історія вже рахується за новими правилами",
-  },
-  pl = {
-    siteFind = "Trasy ze strony", siteNone = "Nie znaleziono tras na stronie", siteOffline = "Nie można połączyć się ze stroną tras: sprawdź połączenie",
-    siteInstalled = "Zainstalowano: %s (wersja %d)", siteReplace = "Masz własną trasę o identyfikatorze %s. Zastąpić ją trasą ze strony?",
-    walkNow = "Iść teraz?", later = "Później", markInstalled = "zainstalowana", markUpdate = "aktualizacja", markBuiltin = "wbudowana", markLocal = "własna",
-    by = "autor: %s",
-    title = "Commit Hike", walked = "Przebyto", place = "Jesteś tutaj", next = "Następny przystanek", today = "Dzisiaj", streak = "Seria",
-    altitude = "Wysokość", finished = "Szlak ukończony", days = "%d dni", noJourney = "Nie wybrano szlaku: :CommitHike route",
-    notSetUp = "Commit Hike nie jest jeszcze skonfigurowany: :CommitHike init", missing = "commit-hike nie jest zainstalowany: zob. :help commit-hike-install",
-    pickRoute = "Wybierz szlak", history = "Liczyć już zrobione commity?", yes = "Tak, od początku historii",
-    no = "Nie, od teraz", pickDifficulty = "Poziom trudności", pickLang = "Język", auto = "Jak w edytorze",
-    scanned = "Policzono nowych commitów: %d", initDone = "Commit Hike skonfigurowany dla %s",
-    pickScoring = "Zasady dla commitów sprzed wersji 1.2", scoringOn = "Przelicz całą historię według nowych zasad",
-    scoringOff = "Zostaw dla nich stare zasady", scoringDone = "Dystans przeliczony: %s → %s",
-    scoringAlways = "Cała twoja historia już liczy się według nowych zasad",
-  },
-  de = {
-    siteFind = "Routen von der Website", siteNone = "Keine Routen auf der Website gefunden", siteOffline = "Die Routen-Website ist nicht erreichbar: prüfe die Verbindung",
-    siteInstalled = "Installiert: %s (Version %d)", siteReplace = "Du hast eine eigene Route mit der ID %s. Durch die Route von der Website ersetzen?",
-    walkNow = "Jetzt gehen?", later = "Später", markInstalled = "installiert", markUpdate = "Update", markBuiltin = "eingebaut", markLocal = "eigene",
-    by = "von %s",
-    title = "Commit Hike", walked = "Gewandert", place = "Du bist hier", next = "Nächster Halt", today = "Heute", streak = "Serie",
-    altitude = "Höhe", finished = "Weg geschafft", days = "%d Tage", noJourney = "Noch kein Weg gewählt: :CommitHike route",
-    notSetUp = "Commit Hike ist noch nicht eingerichtet: :CommitHike init", missing = "commit-hike ist nicht installiert: siehe :help commit-hike-install",
-    pickRoute = "Weg wählen", history = "Schon gemachte Commits mitzählen?", yes = "Ja, ab Beginn der Historie",
-    no = "Nein, ab jetzt", pickDifficulty = "Schwierigkeit", pickLang = "Sprache", auto = "Wie im Editor",
-    scanned = "Neue Commits gezählt: %d", initDone = "Commit Hike ist eingerichtet für %s",
-    pickScoring = "Regeln für Commits vor Version 1.2", scoringOn = "Den ganzen Verlauf nach den neuen Regeln neu zählen",
-    scoringOff = "Für sie die alten Regeln behalten", scoringDone = "Strecke neu gezählt: %s → %s",
-    scoringAlways = "Dein ganzer Verlauf zählt schon nach den neuen Regeln",
-  },
-  es = {
-    siteFind = "Rutas del sitio web", siteNone = "No se encontraron rutas en el sitio", siteOffline = "No se puede conectar con el sitio de rutas: revisa la conexión",
-    siteInstalled = "Instalada: %s (versión %d)", siteReplace = "Tienes una ruta propia con el id %s. ¿Sustituirla por la del sitio?",
-    walkNow = "¿Recorrerla ahora?", later = "Más tarde", markInstalled = "instalada", markUpdate = "actualizar", markBuiltin = "incluida", markLocal = "propia",
-    by = "de %s",
-    title = "Commit Hike", walked = "Recorrido", place = "Estás en", next = "Próxima parada", today = "Hoy", streak = "Racha",
-    altitude = "Altitud", finished = "Ruta completada", days = "%d días", noJourney = "Aún no hay ruta: :CommitHike route",
-    notSetUp = "Commit Hike aún no está configurado: :CommitHike init", missing = "commit-hike no está instalado: ver :help commit-hike-install",
-    pickRoute = "Elige una ruta", history = "¿Contar los commits que ya hiciste?", yes = "Sí, desde el inicio del historial",
-    no = "No, desde ahora", pickDifficulty = "Dificultad", pickLang = "Idioma", auto = "Como el editor",
-    scanned = "Commits nuevos contados: %d", initDone = "Commit Hike configurado para %s",
-    pickScoring = "Reglas para los commits anteriores a la 1.2", scoringOn = "Recontar todo el historial con las nuevas reglas",
-    scoringOff = "Mantener para ellos las reglas antiguas", scoringDone = "Distancia recontada: %s → %s",
-    scoringAlways = "Todo tu historial ya cuenta con las nuevas reglas",
-  },
-}
-local LEVELS = { easy = { "Easy", "Легка", "Łatwy", "Leicht", "Fácil" }, medium = { "Medium", "Середня", "Średni", "Mittel", "Media" },
-  hard = { "Hard", "Складна", "Trudny", "Schwer", "Difícil" } }
-local LANG_INDEX = { en = 1, uk = 2, pl = 3, de = 4, es = 5 }
-local LANG_NAMES = { en = "English", uk = "Українська", pl = "Polski", de = "Deutsch", es = "Español" }
+-- i18n.lua is generated from i18n/<lang>.json (task i18n).
+local I18N = require("commit-hike.i18n")
+local TEXTS, LANG_NAMES = {}, {}
+for code, l in pairs(I18N.languages) do
+  TEXTS[code] = l.texts
+  LANG_NAMES[code] = l.meta.name
+end
 
 --- The editor's language as a two-letter code ("uk" from "uk_UA.UTF-8").
 local function editor_lang()
@@ -131,11 +57,8 @@ end
 --- Distances as the panel writes them: 640 m · 16,0 км · 2863 km.
 function M.distance(m, locale)
   local base = (locale or "en"):match("^(%a+)") or "en"
-  local unit_m, unit_km = "m", "km"
-  local comma = base == "uk" or base == "pl" or base == "de" or base == "es"
-  if base == "uk" then
-    unit_m, unit_km = "м", "км"
-  end
+  local meta = (I18N.languages[base] or I18N.languages.en).meta
+  local unit_m, unit_km = meta.m, meta.km
   m = math.max(0, m or 0)
   if m < 1000 then
     return string.format("%d %s", math.floor(m + 0.5), unit_m)
@@ -144,10 +67,7 @@ function M.distance(m, locale)
   if km >= 100 then
     return string.format("%d %s", math.floor(km + 0.5), unit_km)
   end
-  local s = string.format("%.1f", km)
-  if comma then
-    s = s:gsub("%.", ",")
-  end
+  local s = string.format("%.1f", km):gsub("%.", meta.decimal)
   return s .. " " .. unit_km
 end
 
@@ -449,7 +369,7 @@ function commands.difficulty(level)
   vim.ui.select({ "easy", "medium", "hard" }, {
     prompt = texts().pickDifficulty,
     format_item = function(l)
-      return LEVELS[l][LANG_INDEX[base] or 1]
+      return (TEXTS[base] or TEXTS.en)["level_" .. l]
     end,
   }, function(l)
     if l then
@@ -513,7 +433,7 @@ function commands.lang(code)
   if code and code ~= "" then
     return set(code)
   end
-  vim.ui.select({ "auto", "en", "uk", "pl", "de", "es" }, {
+  vim.ui.select(vim.list_extend({ "auto" }, I18N.order), {
     prompt = texts().pickLang,
     format_item = function(c)
       return c == "auto" and texts().auto or LANG_NAMES[c]
@@ -621,7 +541,7 @@ M.commands = commands
 local VALUES = {
   difficulty = { "easy", "medium", "hard" },
   scoring = { "on", "off" },
-  lang = { "auto", "en", "uk", "pl", "de", "es" },
+  lang = vim.list_extend({ "auto" }, I18N.order),
 }
 
 function M.complete(arglead, cmdline)

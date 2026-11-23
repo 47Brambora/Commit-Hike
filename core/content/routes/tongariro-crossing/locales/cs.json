@@ -1,0 +1,100 @@
+{
+  "name": "Přechod Tongariro",
+  "description": "Slavná jednodenní vulkanická túra Nového Zélandu: přes krátery, kolem Smaragdových jezer a dolů trsnatou trávou a lesem. Vzdálenosti jsou přibližné.",
+  "waypoints": {
+    "mangatepopo": {
+      "name": "Konec silnice Mangatepopo",
+      "text": "Staré lávové údolí, povalové chodníky přes trsnatou trávu a před tebou kužel Ngauruhoe."
+    },
+    "soda-springs": {
+      "name": "Soda Springs",
+      "text": "Poslední snadno dostupná voda. Nad tebou stoupá Ďáblovo schodiště do sedla."
+    },
+    "south-crater": {
+      "name": "Jižní kráter",
+      "text": "Plochá, tichá kráterová plošina. Vlevo se tyčí Ngauruhoe."
+    },
+    "red-crater": {
+      "name": "Červený kráter",
+      "text": "Nejvyšší bod přechodu. Pára, síra a rezavě rudé stěny."
+    },
+    "emerald-lakes": {
+      "name": "Smaragdová jezera",
+      "text": "Tři zářivě zelená jezírka na úpatí sutě."
+    },
+    "blue-lake": {
+      "name": "Modré jezero",
+      "text": "Studené kráterové jezero, posvátné pro místní Maory."
+    },
+    "ketetahi-shelter": {
+      "name": "Přístřešek Ketetahi",
+      "text": "Denní přístřešek s výhledem na jezero Rotoaira a Taupō."
+    },
+    "ketetahi-end": {
+      "name": "Konec silnice Ketetahi",
+      "text": "Lesem dolů až k silnici. Sopka je za tebou!"
+    }
+  },
+  "story": {
+    "staircase": "Ďáblovo schodiště: schod za schodem ze staré lávy. Zastavíš se nabrat dech a údolí je už maličké.",
+    "wind": "Na hřebeni vítr silně tlačí. Opřeš se do něj a nespouštíš oči z tyčového značení.",
+    "scree": "Velkými opatrnými kroky sjíždíš po sypké suti a pod tebou se zeleně blýskají jezera.",
+    "forest": "Trsnatá tráva ustupuje stromům. Po hodinách mezi skalami voní les neuvěřitelně zeleně."
+  },
+  "facts": {
+    "gift": "V roce 1887 daroval Te Heuheu Tūkino IV, nejvyšší náčelník kmene Ngāti Tūwharetoa, tyto posvátné vrcholy národu. Dar se stal jádrem prvního národního parku Nového Zélandu.",
+    "heritage": "Tongariro je dvojí památkou světového dědictví: v roce 1990 byl zapsán pro svou přírodu a v roce 1993 jako vůbec první lokalita uznaná za kulturní krajinu.",
+    "summits": "Vrcholy jsou pro Ngāti Tūwharetoa tapu (posvátné). Žádají turisty, aby se jimi kochali ze stezky a nevystupovali až nahoru.",
+    "film": "Ngauruhoe, téměř dokonalý kužel vedle stezky, si zahrál smyšlenou sopku ve slavné fantasy filmové trilogii. Naposledy vybuchl v roce 1975.",
+    "emerald": "Smaragdová jezera vděčí za svou barvu minerálům vyplaveným z okolní vulkanické horniny.",
+    "blue-lake": "Modré jezero je tapu: návštěvníky žádají, aby se v něm nekoupali a nejedli ani nepili na jeho břehu.",
+    "te-maari": "V roce 2012 vybuchly krátery Te Māri kousek severně od stezky a vrhaly kameny až ke staré chatě Ketetahi, která už nocležníky nepřijímá."
+  },
+  "objects": {
+    "hazard": "Zóna aktivního vulkanického nebezpečí",
+    "fumarole": "Fumaroly Červeného kráteru",
+    "shelter": "Přístřešek Ketetahi"
+  },
+  "achievements": {
+    "first-steps": {
+      "name": "Boty na nohou",
+      "description": "Ujdi prvních 100 m."
+    },
+    "staircase": {
+      "name": "Ďáblovo schodiště",
+      "description": "Vystoupej k Jižnímu kráteru."
+    },
+    "crater-rim": {
+      "name": "Okraj kráteru",
+      "description": "Stoupni si výš než 1 850 m."
+    },
+    "emeralds": {
+      "name": "Smaragdy",
+      "description": "Dojdi ke Smaragdovým jezerům."
+    },
+    "up-and-over": {
+      "name": "Nahoru a přes",
+      "description": "Nastoupej celkem 700 m."
+    },
+    "steam": {
+      "name": "Plnou parou",
+      "description": "Ujdi 15 km za jediný den."
+    },
+    "crossed": {
+      "name": "Přejito",
+      "description": "Dokonči Přechod Tongariro."
+    },
+    "lakes-of-colour": {
+      "name": "Barevná jezera",
+      "description": "Dojdi ke smaragdovým i k modrému kráterovému jezeru."
+    },
+    "walking-on-ash": {
+      "name": "Chůze po popelu",
+      "description": "Ujdi 3 km po vulkanické půdě."
+    },
+    "first-shuttle": {
+      "name": "První kyvadlový autobus",
+      "description": "Udělej 5 commitů mezi 5. a 8. hodinou ranní: na přechod se vyráží brzy."
+    }
+  }
+}

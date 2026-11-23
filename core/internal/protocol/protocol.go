@@ -71,8 +71,8 @@ type Waypoint struct {
 // Biome is the terrain from AtM until the next biome.
 type Biome struct {
 	AtM  float64 `json:"at_m"`
-	Type string  `json:"type"` // forest, grove, meadow, fields, steppe, desert, rock, snow, tundra, water, swamp, coast, volcanic, village,
-	// jungle, savanna, canyon, glacier, heath, bamboo, sakura, tropical, wasteland, enchanted, city, ruins
+	Type string  `json:"type"` // one of routes.BiomeTypes: forest, grove, meadow, fields, steppe, desert, rock, snow, tundra, water, swamp, coast, volcanic, village,
+	// jungle, savanna, canyon, glacier, heath, bamboo, sakura, tropical, wasteland, enchanted, city, ruins… and since 1.3.0 river, lake, sea
 }
 
 // ProfilePoint is a known elevation along a route.

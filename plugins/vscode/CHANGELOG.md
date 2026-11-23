@@ -10,6 +10,20 @@ turns them into the section of the new version; the JetBrains Marketplace
 
 ## [Unreleased]
 
+### Added
+- Czech: the trail panel, both plugins (menus, dialogs, notifications, the status bar), the command titles in VS Code, Neovim, the texts of all ten built-in routes and both series, and the README. Pick it in Settings → Language, or follow the IDE. Distances read "8,4 km" and whole numbers "1 925 m".
+- Three kinds of terrain on the water, for routes that cross it: `river`, where the hiker floats on a raft between reeds and lily pads; `lake`, a rowing boat among ducks and jetties on a surface that lies level; and `sea`, a two-masted sailing ship among whitecaps and buoys, with a lantern at the stern at night. The banks blend into the land around them, the map and the profile colour them blue, and the map legend names them in every language. Cores before 1.3.0 reject routes with them.
+- Translating Commit Hike is one file now: `i18n/<lang>.json` holds every text of the panel, VS Code, JetBrains IDEs and Neovim. `task i18n:new CODE=xx` starts a language with its plural forms, `task i18n:check` says what's missing (texts, placeholders, plural forms), and `task i18n` writes the files each plugin reads. See `i18n/README.md`.
+
+### Changed
+- The language pickers list English first, then the other languages by their code: Čeština, Deutsch, Español, Polski, Українська.
+
+### Fixed
+- Birds no longer fly in a tunnel. Holiday skies, fireflies, fireworks, falling leaves and passing animals fade out at a tunnel's mouth too, as rain and snow already did.
+
+### Security
+- The core is built with Go 1.27.4, which fixes GO-2026-6859 in the standard library's `net/http`.
+
 ## [1.2.1] - 2026-10-23
 
 ### Added

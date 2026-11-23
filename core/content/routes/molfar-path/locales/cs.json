@@ -1,0 +1,116 @@
+{
+  "name": "Molfarova stezka",
+  "description": "Původní pohádka z Karpat: stará molfarka Javdocha posílá svého učedníka s trembitou na Hromový vrch, aby přivolal déšť.",
+  "waypoints": {
+    "village": {
+      "name": "Vesnice pod horou",
+      "text": "Seno je suché, ve studních málo vody. Javdocha ti položí na rameno trembitu: „Jdi nahoru a popros Bouři.“"
+    },
+    "mill": {
+      "name": "Vodní mlýn",
+      "text": "Kolo se sotva otáčí. Mlynář říká, že řeka nebyla nikdy tak tichá."
+    },
+    "church": {
+      "name": "Dřevěný kostelík",
+      "text": "Šindele stříbrné stářím. Zapálíš svíčku na cestu."
+    },
+    "beech-forest": {
+      "name": "Pralesní buky",
+      "text": "Šedé kmeny starší než vesnice. Mezi nimi se vznášejí malá zelená světýlka."
+    },
+    "vatra": {
+      "name": "Polonina Vatra",
+      "text": "Starší pastýř ti dá uhlík ze živého ohně, zabalený v březové kůře."
+    },
+    "black-tarn": {
+      "name": "Černé pleso",
+      "text": "Voda tak temná, že v ní i za dne zůstávají hvězdy. Nepiješ z ní."
+    },
+    "stone-guardian": {
+      "name": "Kamenný strážce",
+      "text": "Prastarý tesaný kámen hlídá sedlo. Pokloníš se a vítr tě nechá projít."
+    },
+    "molfar-hut": {
+      "name": "Chalupa starého molfara",
+      "text": "Prázdná, ale teplá. Z trámů visí sušené byliny, jako by tu někdo věděl, že přijdeš."
+    },
+    "seven-winds": {
+      "name": "Sedlo sedmi větrů",
+      "text": "Sedm větrů, sedm hlasů. Žádnému neodpovíš a jdeš dál."
+    },
+    "thunder-peak": {
+      "name": "Hromový vrch",
+      "text": "Zatroubíš na trembitu. Daleko na západě se nad údolím začne snášet šedá clona deště."
+    }
+  },
+  "story": {
+    "dust": "Na cestě se s každým krokem zvedá prach. I psi jsou z toho horka příliš líní štěkat.",
+    "lights": "Zelená světýlka se pohybují před tebou, vždycky kousek z dosahu. Jdeš za nimi a z cesty nesejdeš.",
+    "ember": "Uhlík v kapse pořád hřeje. Javdocha řekla, že musí dorazit na vrchol živý.",
+    "clouds-gather": "Pod tebou se stahují mraky, těžké a pomalé, jako by čekaly na znamení."
+  },
+  "facts": {
+    "molfar": "V huculské tradici je molfar lidový léčitel a čaroděj počasí; věřilo se, že dokáže odvrátit krupobití nebo přivolat déšť.",
+    "tserkvas": "V roce 2013 bylo šestnáct dřevěných chrámů karpatské oblasti v Polsku a na Ukrajině zapsáno na seznam světového dědictví UNESCO.",
+    "beeches": "Karpaty uchovávají jedny z posledních evropských bukových pralesů; ty ukrajinské jsou světovým dědictvím od roku 2007.",
+    "forest-song": "Mavka, lesní duch z ukrajinského folkloru, se stala hrdinkou hry Lesji Ukrajinky „Lesní píseň“ (1911).",
+    "vatra-tradition": "Pastýři zapalovali na polonině oheň na začátku pastevní sezóny a snažili se ho udržet až do podzimu, kdy hnali stáda dolů.",
+    "cheese": "Budz a brynza, sýry z ovčího mléka, se dodnes vyrábějí přímo na polonině u ohně.",
+    "shadows": "Novela Mychajla Kocjubynského „Stíny zapomenutých předků“ (1911) a film Sergeje Paradžanova z roku 1965 proslavily huculský život po celém světě.",
+    "trembita": "Trembita je huculský dřevěný roh, který může být delší než 3 m. Její hlas nesl údolími zprávy: o narození, svatbách i úmrtích."
+  },
+  "objects": {
+    "mill": "Vodní mlýn",
+    "church": "Dřevěný kostelík",
+    "wisps": "Mavčina světýlka",
+    "vatra-fire": "Živý oheň",
+    "guardian": "Kamenný strážce",
+    "trembita": "Trembita"
+  },
+  "achievements": {
+    "on-the-road": {
+      "name": "Na cestu",
+      "description": "Ujdi prvních 100 m."
+    },
+    "candle": {
+      "name": "Svíčka na cestu",
+      "description": "Dojdi k dřevěnému kostelíku."
+    },
+    "ember": {
+      "name": "Strážce uhlíku",
+      "description": "Získej uhlík na polonině Vatra."
+    },
+    "high-meadows": {
+      "name": "Vysoké poloniny",
+      "description": "Nastoupej celkem 800 m."
+    },
+    "guardian": {
+      "name": "Smíš projít",
+      "description": "Projdi kolem Kamenného strážce."
+    },
+    "two-thousand": {
+      "name": "Kde se rodí bouře",
+      "description": "Stoupni si výš než 2 000 m."
+    },
+    "steady": {
+      "name": "Sedm dní, sedm větrů",
+      "description": "Commituj 7 dní po sobě."
+    },
+    "rain": {
+      "name": "Přivolávač deště",
+      "description": "Vystoupej na Hromový vrch a přivolej déšť."
+    },
+    "lights-dance": {
+      "name": "Kde tančí světýlka",
+      "description": "Projdi začarovaným bukovým lesem."
+    },
+    "many-worlds": {
+      "name": "Mnoho světů",
+      "description": "Projdi 7 různými druhy krajiny."
+    },
+    "molfar-hour": {
+      "name": "Molfarova hodina",
+      "description": "Udělej 7 commitů mezi půlnocí a 5. hodinou ranní, kdy je molfarova magie nejsilnější."
+    }
+  }
+}
