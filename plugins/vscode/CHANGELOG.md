@@ -10,6 +10,9 @@ turns them into the section of the new version; the JetBrains Marketplace
 
 ## [Unreleased]
 
+### Fixed
+- Importing a new version of the route you're walking, or removing a route, updates the trail panel at once. It used to keep showing the old version until the next commit or an IDE restart: a route updated for 1.3.0 still showed its rivers as reedy shores, without the raft.
+
 ## [1.3.0] - 2026-11-23
 
 ### Added
